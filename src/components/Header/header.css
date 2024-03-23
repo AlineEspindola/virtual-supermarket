@@ -1,0 +1,17 @@
+.navbar-expand-lg .navbar-collapse {
+  justify-content: center;
+}
+
+.nav__links {
+  margin: 5px;
+}
+
+.link {
+  width: 150px;
+}
+
+.link a {
+  display: flex;
+  justify-content: center;
+  
+}

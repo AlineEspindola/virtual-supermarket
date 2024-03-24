@@ -1,0 +1,1217 @@
+{
+  "produtos": [
+    {
+      "id": 0,
+      "nome": "Cookies",
+      "imagem": "https://lojabauducco.vteximg.com.br/arquivos/ids/158954-1000-1000/7891962054476.jpg?v=638330609085200000",
+      "marca": "Banduco",
+      "data_validade": "2025-12-31",
+      "ingredientes": "Farinha de trigo, açúcar, óleo vegetal, gotas de chocolate, sal, fermento químico",
+      "informacoes_nutricionais": {
+        "calorias": 120,
+        "gorduras": 6,
+        "carboidratos": 16,
+        "proteinas": 2
+      },
+      "tipo_embalagem": "Pacote",
+      "peso": "60g",
+      "categoria": "Biscoitos e Snacks",
+      "preco": 4.99
+    },
+    {
+      "id": 1,
+      "nome": "Maçã",
+      "imagem": "https://superpao.vtexassets.com/unsafe/fit-in/720x720/center/middle/https%3A%2F%2Fsuperpao.vtexassets.com%2Farquivos%2Fids%2F406820%2FMaca-Fuji-Kg.jpg%3Fv%3D638441197303400000",
+      "marca": "Fuji",
+      "data_validade": "2025-06-30",
+      "ingredientes": "Maçã",
+      "informacoes_nutricionais": {
+        "calorias": 52,
+        "gorduras": 0.2,
+        "carboidratos": 14,
+        "proteinas": 0.3
+      },
+      "tipo_embalagem": "Caixa",
+      "peso": "1 kg",
+      "categoria": "Frutas e Vegetais",
+      "preco": 4.99
+    },
+    {
+      "id": 2,
+      "nome": "Peito de Frango",
+      "imagem": "https://www.sondadelivery.com.br/Arquivos/ProdutosSku/158925/7893000482401.png",
+      "marca": "Sadia",
+      "data_validade": "2025-04-15",
+      "ingredientes": "Peito de frango",
+      "informacoes_nutricionais": {
+        "calorias": 165,
+        "gorduras": 3.6,
+        "carboidratos": 0,
+        "proteinas": 31
+      },
+      "tipo_embalagem": "Pacote",
+      "peso": "500 g",
+      "categoria": "Carnes e Aves",
+      "preco": 12.99
+    },
+    {
+      "id": 3,
+      "nome": "Leite",
+      "imagem": "https://www.sondadelivery.com.br/img.aspx/sku/1000043850/530/7896256601848_99_1_1200_72_RGB.jpg",
+      "marca": "Tirol",
+      "data_validade": "2025-05-20",
+      "ingredientes": "Leite de vaca",
+      "informacoes_nutricionais": {
+        "calorias": 64,
+        "gorduras": 3.6,
+        "carboidratos": 4.8,
+        "proteinas": 3.4
+      },
+      "tipo_embalagem": "Caixa",
+      "peso": "1 litro",
+      "categoria": "Laticínios",
+      "preco": 3.49
+    },
+    {
+      "id": 4,
+      "nome": "Arroz Integral",
+      "imagem": "https://zaffari.vtexassets.com/arquivos/ids/222059-1200-auto?v=638017993774930000&width=1200&height=auto&aspect=true",
+      "marca": "Tio João",
+      "data_validade": "2025-09-01",
+      "ingredientes": "Arroz integral",
+      "informacoes_nutricionais": {
+        "calorias": 130,
+        "gorduras": 1,
+        "carboidratos": 28,
+        "proteinas": 3
+      },
+      "tipo_embalagem": "Pacote",
+      "peso": "1 kg",
+      "categoria": "Grãos",
+      "preco": 5.99
+    },
+    {
+      "id": 5,
+      "nome": "Detergente",
+      "imagem": "https://images.tcdn.com.br/img/img_prod/694926/detergente_ype_lava_loucas_neutro_liquido_500ml_360129_1_dabf73d81954210caed4e6bdd961a981.jpg",
+      "marca": "Ypê",
+      "data_validade": null,
+      "ingredientes": "Componentes de limpeza",
+      "informacoes_nutricionais": null,
+      "tipo_embalagem": "Frasco",
+      "peso": "500 ml",
+      "categoria": "Produtos de Limpeza",
+      "preco": 2.99
+    },
+    {
+      "id": 6,
+      "nome": "Shampoo",
+      "imagem": "https://drogariasp.vteximg.com.br/arquivos/ids/429609-1000-1000/709794---shampoo-pantene-bambu-400ml.jpg?v=637478979988800000",
+      "marca": "Pantene",
+      "data_validade": null,
+      "ingredientes": "Componentes de higiene",
+      "informacoes_nutricionais": null,
+      "tipo_embalagem": "Frasco",
+      "peso": "400 ml",
+      "categoria": "Produtos de Higiene Pessoal",
+      "preco": 9.99
+    },
+    {
+      "id": 7,
+      "nome": "Cerveja",
+      "imagem": "https://bretas.vtexassets.com/arquivos/ids/201432/65730b7cdddb07d995cdaf9d.jpg?v=638376352000200000",
+      "marca": "Skol",
+      "data_validade": "2025-07-10",
+      "ingredientes": "Água, malte de cevada, lúpulo e levedura",
+      "informacoes_nutricionais": {
+        "calorias": 42,
+        "gorduras": 0,
+        "carboidratos": 2.9,
+        "proteinas": 0.4
+      },
+      "tipo_embalagem": "Lata",
+      "peso": "350 ml",
+      "categoria": "Bebidas",
+      "preco": 2.49
+    },
+    {
+      "id": 8,
+      "nome": "Banana",
+      "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/cenourao/media/uploads/produtos/foto/67dc8df0dbe6file.png",
+      "marca": "Prata",
+      "data_validade": "2025-03-25",
+      "ingredientes": "Banana",
+      "informacoes_nutricionais": {
+        "calorias": 89,
+        "gorduras": 0.3,
+        "carboidratos": 22.8,
+        "proteinas": 1.1
+      },
+      "tipo_embalagem": "Dúzia",
+      "peso": "1 kg",
+      "categoria": "Frutas e Vegetais",
+      "preco": 6.99
+    },
+    {
+      "id": 9,
+      "nome": "Carne Moída",
+      "imagem": "https://media.soujusto.com.br/products/sku_6751_-_Marco_Antonio_Ferreira_1.jpg",
+      "marca": "Friboi",
+      "data_validade": "2025-03-20",
+      "ingredientes": "Carne bovina",
+      "informacoes_nutricionais": {
+        "calorias": 250,
+        "gorduras": 20,
+        "carboidratos": 0,
+        "proteinas": 18
+      },
+      "tipo_embalagem": "Pacote",
+      "peso": "500 g",
+      "categoria": "Carnes e Aves",
+      "preco": 15.99
+    },
+    {
+      "id": 10,
+      "nome": "Queijo Mussarela",
+      "imagem": "https://hiperideal.vtexassets.com/arquivos/ids/183739/10928.jpg?v=637288160327100000",
+      "marca": "Tirolez",
+      "data_validade": "2025-04-10",
+      "ingredientes": "Leite de vaca, sal, fermento lácteo",
+      "informacoes_nutricionais": {
+        "calorias": 330,
+        "gorduras": 26,
+        "carboidratos": 2,
+        "proteinas": 22
+      },
+      "tipo_embalagem": "Peça",
+      "peso": "500 g",
+      "categoria": "Laticínios",
+      "preco": 11.99
+    },
+    {
+      "id": 11,
+      "nome": "Feijão",
+      "imagem": "https://www.brasileuquero.com/cdn/shop/products/7896006744115_530x@2x.png?v=1617459605",
+      "marca": "Camil",
+      "data_validade": "2025-12-01",
+      "ingredientes": "Feijão",
+      "informacoes_nutricionais": {
+        "calorias": 337,
+        "gorduras": 1.2,
+        "carboidratos": 60,
+        "proteinas": 24
+      },
+      "tipo_embalagem": "Pacote",
+      "peso": "1 kg",
+      "categoria": "Grãos",
+      "preco": 4.49
+    },
+    {
+      "id": 12,
+      "nome": "Sabão em Pó",
+      "imagem": "https://static2.carrefour.com.br/conteudo-pdp/natal22/omo/images/omo_sabao_po.png",
+      "marca": "Omo",
+      "data_validade": null,
+      "ingredientes": "Componentes de limpeza",
+      "informacoes_nutricionais": null,
+      "tipo_embalagem": "Caixa",
+      "peso": "2,2 kg",
+      "categoria": "Produtos de Limpeza",
+      "preco": 8.99
+    },
+    {
+      "id": 13,
+      "nome": "Creme Dental",
+      "imagem": "https://cdn1.staticpanvel.com.br/produtos/15/885730-15.jpg",
+      "marca": "Colgate",
+      "data_validade": null,
+      "ingredientes": "Componentes de higiene",
+      "informacoes_nutricionais": null,
+      "tipo_embalagem": "Tubo",
+      "peso": "90 g",
+      "categoria": "Produtos de Higiene Pessoal",
+      "preco": 2.79
+    },
+    {
+      "id": 14,
+      "nome": "Refrigerante",
+      "imagem": "https://www.consumoemrede.com.br/001/wp-content/uploads/2020/05/7894900011517.jpg",
+      "marca": "Coca-Cola",
+      "data_validade": "2025-08-15",
+      "ingredientes": "Água, açúcar, dióxido de carbono, acidulante, conservantes, cafeína, corante caramelo",
+      "informacoes_nutricionais": {
+        "calorias": 42,
+        "gorduras": 0,
+        "carboidratos": 10.6,
+        "proteinas": 0
+      },
+      "tipo_embalagem": "Garrafa",
+      "peso": "2 litros",
+      "categoria": "Bebidas",
+      "preco": 6.49
+    },
+    {
+      "id": 15,
+      "nome": "Abacaxi",
+      "imagem": "https://images.squarespace-cdn.com/content/5b8edfa12714e508f756f481/1538590077969-IGKK7CZLAI7MUY74EJZZ/abacaxi-havai%CC%81.jpg?format=1500w&content-type=image%2Fjpeg",
+      "marca": "Havaí",
+      "data_validade": "2025-03-20",
+      "ingredientes": "Abacaxi",
+      "informacoes_nutricionais": {
+        "calorias": 50,
+        "gorduras": 0.1,
+        "carboidratos": 13,
+        "proteinas": 0.5
+      },
+      "tipo_embalagem": "Unidade",
+      "peso": "1 unidade",
+      "categoria": "Frutas e Vegetais",
+      "preco": 3.99
+    },
+    {
+      "id": 16,
+      "nome": "Peito de Peru Defumado",
+      "imagem": "https://d2ng48q17pwd8f.cloudfront.net/Custom/Content/Products/10/07/1007426_peito-def-chest-perdigao-200g-130191_m1_637227307321963545.jpg",
+      "marca": "Perdigão",
+      "data_validade": "2025-05-10",
+      "ingredientes": "Peito de peru, sal, conservantes",
+      "informacoes_nutricionais": {
+        "calorias": 111,
+        "gorduras": 2,
+        "carboidratos": 0,
+        "proteinas": 21
+      },
+      "tipo_embalagem": "Pacote",
+      "peso": "200 g",
+      "categoria": "Carnes e Aves",
+      "preco": 7.49
+    },
+    {
+      "id": 17,
+      "nome": "Iogurte Natural",
+      "imagem": "https://io.convertiez.com.br/m/superpaguemenos/shop/products/images/19035/medium/iogurte-natural-nestle-tradicional-170g_104931.png",
+      "marca": "Nestlé",
+      "data_validade": "2025-04-25",
+      "ingredientes": "Leite, fermento lácteo",
+      "informacoes_nutricionais": {
+        "calorias": 54,
+        "gorduras": 3,
+        "carboidratos": 4,
+        "proteinas": 3
+      },
+      "tipo_embalagem": "Pote",
+      "peso": "170 g",
+      "categoria": "Laticínios",
+      "preco": 2.29
+    },
+    {
+      "id": 18,
+      "nome": "Arroz Branco",
+      "imagem": "https://samsclub.vtexassets.com/arquivos/ids/156537/Arroz-Branco-Tipo-1-Camil-5kg.jpg?v=637430324688600000",
+      "marca": "Camil",
+      "data_validade": "2025-08-01",
+      "ingredientes": "Arroz",
+      "informacoes_nutricionais": {
+        "calorias": 130,
+        "gorduras": 0,
+        "carboidratos": 28,
+        "proteinas": 3
+      },
+      "tipo_embalagem": "Pacote",
+      "peso": "5 kg",
+      "categoria": "Grãos",
+      "preco": 19.99
+    },
+    {
+      "id": 19,
+      "nome": "Limpador Multiuso",
+      "imagem": "https://m.media-amazon.com/images/I/61XjP6BZeLL._AC_UF1000,1000_QL80_.jpg",
+      "marca": "Veja",
+      "data_validade": null,
+      "ingredientes": "Componentes de limpeza",
+      "informacoes_nutricionais": null,
+      "tipo_embalagem": "Frasco",
+      "peso": "500 ml",
+      "categoria": "Produtos de Limpeza",
+      "preco": 4.99
+    },
+    {
+      "id": 20,
+      "nome": "Condicionador",
+      "imagem": "https://a-static.mlcdn.com.br/450x450/condicionador-pantene-raiz-e-pontas-equilibrio-510ml/bw2store/96ef427cddfc11edad944201ac185033/d67ba9d7c55eb4a210ca7a32d5da6678.jpeg",
+      "marca": "Pantene",
+      "data_validade": null,
+      "ingredientes": "Componentes de higiene",
+      "informacoes_nutricionais": null,
+      "tipo_embalagem": "Frasco",
+      "peso": "350 ml",
+      "categoria": "Produtos de Higiene Pessoal",
+      "preco": 12.99
+    },
+    {
+      "id": 21,
+      "nome": "Suco de Laranja",
+      "imagem": "https://images.tcdn.com.br/img/img_prod/1115696/suco_del_valle_frut_laranja_1_litro_6_und_451_1_b575b599046364d861616c229b7aa9d1.jpg",
+      "marca": "Del Valle",
+      "data_validade": "2025-07-05",
+      "ingredientes": "Suco de laranja concentrado, água, açúcar",
+      "informacoes_nutricionais": {
+        "calorias": 45,
+        "gorduras": 0,
+        "carboidratos": 11,
+        "proteinas": 0
+      },
+      "tipo_embalagem": "Caixa",
+      "peso": "1 litro",
+      "categoria": "Bebidas",
+      "preco": 4.99
+    },
+    {
+      "id": 22,
+      "nome": "Morango",
+      "imagem": "https://phygital-files.mercafacil.com/primo/uploads/produto/morango_caixa_250g_79504c1c-da3a-4e6c-a9a6-36e3f5bad65b.png",
+      "marca": "Fazenda Feliz",
+      "data_validade": "2025-03-22",
+      "ingredientes": "Morango",
+      "informacoes_nutricionais": {
+        "calorias": 45,
+        "gorduras": 0.4,
+        "carboidratos": 11,
+        "proteinas": 1
+      },
+      "tipo_embalagem": "Caixa",
+      "peso": "250 g",
+      "categoria": "Frutas e Vegetais",
+      "preco": 5.99
+    },
+    {
+      "id": 23,
+      "nome": "Peito de Frango em Cubos",
+      "imagem": "https://rafasupervarejao.com.br/34757/7891515560140-peito-de-frango-c-mandioquinha-perdigao-250g.jpg",
+      "marca": "Perdigão",
+      "data_validade": "2025-04-18",
+      "ingredientes": "Peito de frango",
+      "informacoes_nutricionais": {
+        "calorias": 110,
+        "gorduras": 1.5,
+        "carboidratos": 0,
+        "proteinas": 23
+      },
+      "tipo_embalagem": "Pacote",
+      "peso": "250 g",
+      "categoria": "Carnes e Aves",
+      "preco": 9.49
+    },
+    {
+      "id": 24,
+      "nome": "Queijo Minas Frescal",
+      "imagem": "https://naturaldaterra.com.br/media/catalog/product/cache/45ac340462cb0079031d200b0d766f88/2/0/2046720000003.png",
+      "marca": "Tirolez",
+      "data_validade": "2025-04-30",
+      "ingredientes": "Leite de vaca, sal, coalho",
+      "informacoes_nutricionais": {
+        "calorias": 240,
+        "gorduras": 18,
+        "carboidratos": 3,
+        "proteinas": 17
+      },
+      "tipo_embalagem": "Peça",
+      "peso": "500 g",
+      "categoria": "Laticínios",
+      "preco": 13.99
+    },
+    {
+      "id": 25,
+      "nome": "Feijão Preto",
+      "imagem": "https://scfoods.fbitsstatic.net/img/p/feijao-preto-camil-1kg-71396/258021.jpg?w=800&h=800&v=no-change&qs=ignore",
+      "marca": "Camil",
+      "data_validade": "2025-11-20",
+      "ingredientes": "Feijão preto",
+      "informacoes_nutricionais": {
+        "calorias": 340,
+        "gorduras": 1,
+        "carboidratos": 60,
+        "proteinas": 21
+      },
+      "tipo_embalagem": "Pacote",
+      "peso": "1 kg",
+      "categoria": "Grãos",
+      "preco": 5.99
+    },
+    {
+      "id": 26,
+      "nome": "Desinfetante",
+      "imagem": "https://emporiokaminski.com.br/wp-content/uploads/2020/06/Desinfetante-Veja-Perfumado-P-Pisos-1l.jpeg",
+      "marca": "Veja",
+      "data_validade": null,
+      "ingredientes": "Componentes de limpeza",
+      "informacoes_nutricionais": null,
+      "tipo_embalagem": "Frasco",
+      "peso": "1 litro",
+      "categoria": "Produtos de Limpeza",
+      "preco": 7.99
+    },
+    {
+      "id": 27,
+      "nome": "Creme para Pentear",
+      "imagem": "https://io.convertiez.com.br/m/superpaguemenos/shop/products/images/13789/medium/creme-para-pentear-seda-ceramidas-300ml_91210.png",
+      "marca": "Seda",
+      "data_validade": null,
+      "ingredientes": "Componentes de higiene",
+      "informacoes_nutricionais": null,
+      "tipo_embalagem": "Frasco",
+      "peso": "300 ml",
+      "categoria": "Produtos de Higiene Pessoal",
+      "preco": 6.49
+    },
+    {
+      "id": 28,
+      "nome": "Água Mineral",
+      "imagem": "https://www.imigrantesbebidas.com.br/bebida/images/products/full/2893-agua-mineral-crystal-sem-gas-500ml.jpg",
+      "marca": "Crystal",
+      "data_validade": "2025-09-01",
+      "ingredientes": "Água mineral",
+      "informacoes_nutricionais": {
+        "calorias": 0,
+        "gorduras": 0,
+        "carboidratos": 0,
+        "proteinas": 0
+      },
+      "tipo_embalagem": "Garrafa",
+      "peso": "500 ml",
+      "categoria": "Bebidas",
+      "preco": 1.29
+    },
+    {
+      "id": 29,
+      "nome": "Pêra",
+      "imagem": "https://static3.tcdn.com.br/img/img_prod/450860/muda_de_pera_d_agua_ou_europeia_1m_enxertada_676_1_20190611093602.jpg",
+      "marca": "D'água",
+      "data_validade": "2025-03-18",
+      "ingredientes": "Pêra",
+      "informacoes_nutricionais": {
+        "calorias": 58,
+        "gorduras": 0.2,
+        "carboidratos": 15.5,
+        "proteinas": 0.4
+      },
+      "tipo_embalagem": "Caixa",
+      "peso": "1 kg",
+      "categoria": "Frutas e Vegetais",
+      "preco": 7.99
+    },
+    {
+      "id": 30,
+      "nome": "Picanha",
+      "imagem": "https://www.carnesperdizes.com.br/cdn/shop/files/PICANHAANGUSSELECTION-2_1024x.jpg?v=1689875747",
+      "marca": "Angus",
+      "data_validade": "2025-03-22",
+      "ingredientes": "Carne bovina",
+      "informacoes_nutricionais": {
+        "calorias": 232,
+        "gorduras": 16.6,
+        "carboidratos": 0,
+        "proteinas": 21.6
+      },
+      "tipo_embalagem": "Peça",
+      "peso": "1 kg",
+      "categoria": "Carnes e Aves",
+      "preco": 34.99
+    },
+    {
+      "id": 31,
+      "nome": "Iogurte de Morango",
+      "imagem": "https://static.paodeacucar.com/img/uploads/1/78/24970078.jpg",
+      "marca": "Danone",
+      "data_validade": "2025-04-10",
+      "ingredientes": "Leite, polpa de morango, açúcar, fermento lácteo",
+      "informacoes_nutricionais": {
+        "calorias": 96,
+        "gorduras": 2.6,
+        "carboidratos": 14.4,
+        "proteinas": 3.2
+      },
+      "tipo_embalagem": "Pote",
+      "peso": "170 g",
+      "categoria": "Laticínios",
+      "preco": 1.99
+    },
+    {
+      "id": 32,
+      "nome": "Quinoa",
+      "imagem": "https://www.lojadosnaturais.com.br/fotos/QUINOA%20GR%C3%83OS%20200G%20VITALIN.jpg",
+      "marca": "Vitafor",
+      "data_validade": "2025-10-15",
+      "ingredientes": "Quinoa",
+      "informacoes_nutricionais": {
+        "calorias": 120,
+        "gorduras": 1.9,
+        "carboidratos": 21,
+        "proteinas": 4
+      },
+      "tipo_embalagem": "Pacote",
+      "peso": "250 g",
+      "categoria": "Grãos",
+      "preco": 19.99
+    },
+    {
+      "id": 33,
+      "nome": "Desengordurante",
+      "imagem": "https://m.media-amazon.com/images/I/61ztXiDCdnL._AC_UF1000,1000_QL80_.jpg",
+      "marca": "Veja",
+      "data_validade": null,
+      "ingredientes": "Componentes de limpeza",
+      "informacoes_nutricionais": null,
+      "tipo_embalagem": "Frasco",
+      "peso": "500 ml",
+      "categoria": "Produtos de Limpeza",
+      "preco": 6.49
+    },
+    {
+      "id": 34,
+      "nome": "Máscara Facial",
+      "imagem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/361173-500-500/4005900515780.jpg?v=637078679450270000",
+      "marca": "Nivea",
+      "data_validade": null,
+      "ingredientes": "Componentes de cuidados com a pele",
+      "informacoes_nutricionais": null,
+      "tipo_embalagem": "Tubo",
+      "peso": "75 ml",
+      "categoria": "Produtos de Higiene Pessoal",
+      "preco": 15.99
+    },
+    {
+      "id": 35,
+      "nome": "Chá Verde",
+      "imagem": "https://www.imigrantesbebidas.com.br/img/bebida/images/products/full/89591-cha-verde-leao-limao-1-5l.20220812155953.jpg?s=54aa129f8c3f5dd56d293ecabf33b04f",
+      "marca": "Leão",
+      "data_validade": "2025-06-01",
+      "ingredientes": "Folhas de chá verde",
+      "informacoes_nutricionais": {
+        "calorias": 0,
+        "gorduras": 0,
+        "carboidratos": 0,
+        "proteinas": 0
+      },
+      "tipo_embalagem": "Caixa",
+      "peso": "25 sachês",
+      "categoria": "Bebidas",
+      "preco": 8.99
+    },
+    {
+      "id": 36,
+      "nome": "Melancia",
+      "imagem": "https://revistacampoenegocios.com.br/wp-content/uploads/2020/11/Melancia-01.jpg",
+      "marca": "Fazenda São Pedro",
+      "data_validade": "2025-03-28",
+      "ingredientes": "Melancia",
+      "informacoes_nutricionais": {
+        "calorias": 30,
+        "gorduras": 0.2,
+        "carboidratos": 8,
+        "proteinas": 0.6
+      },
+      "tipo_embalagem": "Unidade",
+      "peso": "5 kg",
+      "categoria": "Frutas e Vegetais",
+      "preco": 9.99
+    },
+    {
+      "id": 37,
+      "nome": "Linguiça Calabresa",
+      "imagem": "https://acdn.mitiendanube.com/stores/455/258/products/linguica-calabresa-seara-kg1-85857fa0409589a77015857974947172-640-0.jpg",
+      "marca": "Seara",
+      "data_validade": "2025-03-25",
+      "ingredientes": "Carne suína, temperos",
+      "informacoes_nutricionais": {
+        "calorias": 268,
+        "gorduras": 23,
+        "carboidratos": 0,
+        "proteinas": 15
+      },
+      "tipo_embalagem": "Pacote",
+      "peso": "500 g",
+      "categoria": "Carnes e Aves",
+      "preco": 7.99
+    },
+    {
+      "id": 38,
+      "nome": "Leite Condensado",
+      "imagem": "https://s3-sa-east-1.amazonaws.com/bluesoft-erp/dasanta/ecommerce/produtos/fotos/cbb0a214-a2cf-4796-ab07-5b38f7d0545b/foto_large.jpg",
+      "marca": "Nestlé",
+      "data_validade": "2025-05-10",
+      "ingredientes": "Leite, açúcar",
+      "informacoes_nutricionais": {
+        "calorias": 320,
+        "gorduras": 8,
+        "carboidratos": 56,
+        "proteinas": 8
+      },
+      "tipo_embalagem": "Lata",
+      "peso": "395 g",
+      "categoria": "Laticínios",
+      "preco": 3.49
+    },
+    {
+      "id": 39,
+      "nome": "Aveia em Flocos",
+      "imagem": "https://bretas.vtexassets.com/arquivos/ids/203058/65730cc7dddb07d995cdb598.jpg?v=638376355309100000",
+      "marca": "Quaker",
+      "data_validade": "2025-11-30",
+      "ingredientes": "Aveia",
+      "informacoes_nutricionais": {
+        "calorias": 379,
+        "gorduras": 7,
+        "carboidratos": 68,
+        "proteinas": 13
+      },
+      "tipo_embalagem": "Pacote",
+      "peso": "450 g",
+      "categoria": "Grãos",
+      "preco": 6.99
+    },
+    {
+      "id": 40,
+      "nome": "Limpa Vidros",
+      "imagem": "https://naturaldaterra.com.br/media/catalog/product/1/2/124942---7891035225109---limp-vidros-veja-vidrex-rf-500ml-cristal.jpg?auto=webp&format=pjpg&width=640&height=800&fit=cover",
+      "marca": "Veja",
+      "data_validade": null,
+      "ingredientes": "Componentes de limpeza",
+      "informacoes_nutricionais": null,
+      "tipo_embalagem": "Frasco",
+      "peso": "150 ml",
+      "categoria": "Produtos de Limpeza",
+      "preco": 5.49
+    },
+    {
+      "id": 41,
+      "nome": "Desodorante Aerosol",
+      "imagem": "https://www.drogarianet.com.br/media/product/b2b/desodorante-aerosol-active-dry-150ml-rexona-men-11d.jpg",
+      "marca": "Rexona",
+      "data_validade": null,
+      "ingredientes": "Componentes de higiene",
+      "informacoes_nutricionais": null,
+      "tipo_embalagem": "Aerosol",
+      "peso": "150 ml",
+      "categoria": "Produtos de Higiene Pessoal",
+      "preco": 10.99
+    },
+    {
+      "id": 42,
+      "nome": "Suco de Uva Integral",
+      "imagem": "https://atacarejosaudavel.fbitsstatic.net/img/p/suco-de-uva-lev-pet-900ml-campo-largo-68239/254721-1.jpg?w=600&h=600&v=no-change&qs=ignore",
+      "marca": "Campo Largo",
+      "data_validade": "2025-07-15",
+      "ingredientes": "Suco de uva concentrado, água",
+      "informacoes_nutricionais": {
+        "calorias": 54,
+        "gorduras": 0,
+        "carboidratos": 13,
+        "proteinas": 0
+      },
+      "tipo_embalagem": "Garrafa",
+      "peso": "1 litro",
+      "categoria": "Bebidas",
+      "preco": 6.99
+    },
+    {
+      "id": 43,
+      "nome": "Abóbora",
+      "imagem": "https://mercadoorganico.com/8812-large_default/abobora-moranga-organica-pdc-osm.jpg",
+      "marca": "Orgânica",
+      "data_validade": "2025-03-30",
+      "ingredientes": "Abóbora",
+      "informacoes_nutricionais": {
+        "calorias": 26,
+        "gorduras": 0.1,
+        "carboidratos": 6.5,
+        "proteinas": 1
+      },
+      "tipo_embalagem": "Unidade",
+      "peso": "1 kg",
+      "categoria": "Frutas e Vegetais",
+      "preco": 4.99
+    },
+    {
+      "id": 44,
+      "nome": "Salsicha",
+      "imagem": "https://io.convertiez.com.br/m/superpaguemenos/shop/products/images/17147/medium/salsicha-perdigao-kg_82679.png",
+      "marca": "Perdigão",
+      "data_validade": "2025-04-05",
+      "ingredientes": "Carne bovina, água, proteína de soja, condimentos",
+      "informacoes_nutricionais": {
+        "calorias": 300,
+        "gorduras": 28,
+        "carboidratos": 2,
+        "proteinas": 12
+      },
+      "tipo_embalagem": "Pacote",
+      "peso": "500 g",
+      "categoria": "Carnes e Aves",
+      "preco": 6.49
+    },
+    {
+      "id": 45,
+      "nome": "Leite Fermentado",
+      "imagem": "https://phygital-files.mercafacil.com/mercado-milenio/uploads/produto/leite_fermentado_yakult_80ml_73d2c31c-2ad7-418a-a310-8aaa87c24a7f.png",
+      "marca": "Yakult",
+      "data_validade": "2025-04-10",
+      "ingredientes": "Leite fermentado",
+      "informacoes_nutricionais": {
+        "calorias": 54,
+        "gorduras": 0.5,
+        "carboidratos": 7,
+        "proteinas": 3
+      },
+      "tipo_embalagem": "Caixa",
+      "peso": "80 ml",
+      "categoria": "Laticínios",
+      "preco": 2.99
+    },
+    {
+      "id": 46,
+      "nome": "Arroz Basmati",
+      "imagem": "https://josapar.vteximg.com.br/arquivos/ids/156410-1000-1000/Tio-Variedades-Mundiais-Arroz-Basmati---500g_7893500044352_1.jpg?v=637558196189400000",
+      "marca": "Tio João",
+      "data_validade": "2025-09-01",
+      "ingredientes": "Arroz basmati",
+      "informacoes_nutricionais": {
+        "calorias": 191,
+        "gorduras": 0.5,
+        "carboidratos": 40,
+        "proteinas": 4
+      },
+      "tipo_embalagem": "Pacote",
+      "peso": "1 kg",
+      "categoria": "Grãos",
+      "preco": 8.99
+    },
+    {
+      "id": 47,
+      "nome": "Desengordurante de Cozinha",
+      "imagem": "https://m.media-amazon.com/images/I/61ztXiDCdnL._AC_UF1000,1000_QL80_.jpg",
+      "marca": "Veja",
+      "data_validade": null,
+      "ingredientes": "Componentes de limpeza",
+      "informacoes_nutricionais": null,
+      "tipo_embalagem": "Spray",
+      "peso": "500 ml",
+      "categoria": "Produtos de Limpeza",
+      "preco": 7.99
+    },
+    {
+      "id": 48,
+      "nome": "Creme de Barbear",
+      "imagem": "https://images.ctfassets.net/f2o0m7zxveci/5Ge0H9lmwhV7vLJvDcX7FX/eb0a15d4a992fd1a21fc03b5f57b50bf/dt_feature05_2x.png",
+      "marca": "Gillette",
+      "data_validade": null,
+      "ingredientes": "Componentes de cuidados com a pele",
+      "informacoes_nutricionais": null,
+      "tipo_embalagem": "Tubo",
+      "peso": "200 ml",
+      "categoria": "Produtos de Higiene Pessoal",
+      "preco": 15.49
+    },
+    {
+      "id": 49,
+      "nome": "Água de Coco",
+      "imagem": "https://machadao.com.br/31-medium_default/agua-de-coco-mais-coco-200ml.jpg",
+      "marca": "Coco Gelado",
+      "data_validade": "2025-06-15",
+      "ingredientes": "Água de coco",
+      "informacoes_nutricionais": {
+        "calorias": 19,
+        "gorduras": 0,
+        "carboidratos": 5,
+        "proteinas": 0.2
+      },
+      "tipo_embalagem": "Garrafa",
+      "peso": "200 ml",
+      "categoria": "Bebidas",
+      "preco": 3.99
+    },
+    {
+      "id": 50,
+      "nome": "Limão",
+      "imagem": "https://global.cdn.magazord.com.br/vasoeflor/img/2022/07/produto/1075/muda-limao-tahiti-90cm.jpg?ims=fit-in/800x800/filters:fill(white)",
+      "marca": "Verdejante",
+      "data_validade": "2025-03-20",
+      "ingredientes": "Limão",
+      "informacoes_nutricionais": {
+        "calorias": 29,
+        "gorduras": 0.3,
+        "carboidratos": 9.3,
+        "proteinas": 1.1
+      },
+      "tipo_embalagem": "Saco",
+      "peso": "1 kg",
+      "categoria": "Frutas e Vegetais",
+      "preco": 3.49
+    },
+    {
+      "id": 51,
+      "nome": "Peito de Peru Defumado",
+      "imagem": "https://static.paodeacucar.com/img/uploads/1/278/16674278.jpg",
+      "marca": "Sadia",
+      "data_validade": "2025-04-25",
+      "ingredientes": "Peito de peru, sal, conservantes",
+      "informacoes_nutricionais": {
+        "calorias": 113,
+        "gorduras": 1.5,
+        "carboidratos": 0,
+        "proteinas": 24
+      },
+      "tipo_embalagem": "Pacote",
+      "peso": "200 g",
+      "categoria": "Carnes e Aves",
+      "preco": 9.99
+    },
+    {
+      "id": 52,
+      "nome": "Iogurte Grego Natural",
+      "imagem": "https://s3-sa-east-1.amazonaws.com/bluesoft-erp/pb/ecommerce/produtos/fotos/82276901-7ecc-4eff-9738-7825011cc282/foto_large.jpg",
+      "marca": "Vigor",
+      "data_validade": "2025-05-20",
+      "ingredientes": "Leite, fermento lácteo",
+      "informacoes_nutricionais": {
+        "calorias": 78,
+        "gorduras": 4.8,
+        "carboidratos": 3.8,
+        "proteinas": 5
+      },
+      "tipo_embalagem": "Pote",
+      "peso": "150 g",
+      "categoria": "Laticínios",
+      "preco": 2.79
+    },
+    {
+      "id": 53,
+      "nome": "Arroz Integral",
+      "imagem": "link",
+      "marca": "Tio João",
+      "data_validade": "2025-08-15",
+      "ingredientes": "Arroz integral",
+      "informacoes_nutricionais": {
+        "calorias": 360,
+        "gorduras": 3,
+        "carboidratos": 74,
+        "proteinas": 7
+      },
+      "tipo_embalagem": "Pacote",
+      "peso": "1 kg",
+      "categoria": "Grãos",
+      "preco": 6.49
+    },
+    {
+      "id": 54,
+      "nome": "Desinfetante Lavanda",
+      "imagem": "https://cdn.awsli.com.br/800x800/446/446822/produto/203589843/veja-lavanda-da-franca-xzsand.jpg",
+      "marca": "Veja",
+      "data_validade": null,
+      "ingredientes": "Componentes de limpeza",
+      "informacoes_nutricionais": null,
+      "tipo_embalagem": "Frasco",
+      "peso": "1 litro",
+      "categoria": "Produtos de Limpeza",
+      "preco": 8.99
+    },
+    {
+      "id": 55,
+      "nome": "Shampoo",
+      "imagem": "https://drogariasp.vteximg.com.br/arquivos/ids/569808-1000-1000/261610---shampoo-pantene-restauracao-400ml.jpg?v=637829698266970000",
+      "marca": "Pantene",
+      "data_validade": null,
+      "ingredientes": "Componentes de higiene",
+      "informacoes_nutricionais": null,
+      "tipo_embalagem": "Frasco",
+      "peso": "400 ml",
+      "categoria": "Produtos de Higiene Pessoal",
+      "preco": 14.99
+    },
+    {
+      "id": 56,
+      "nome": "Suco de Maçã Integral",
+      "imagem": "https://naturalone.vteximg.com.br/arquivos/ids/157730-1000-1000/SUCO_DE_MACA_INTEGRAL_900ml_REFRIGERADO_-_NATURAL_ONE-01.jpg?v=638210668197430000",
+      "marca": "Natural One",
+      "data_validade": "2025-07-10",
+      "ingredientes": "Suco de maçã concentrado, água",
+      "informacoes_nutricionais": {
+        "calorias": 56,
+        "gorduras": 0,
+        "carboidratos": 14,
+        "proteinas": 0
+      },
+      "tipo_embalagem": "Garrafa",
+      "peso": "900 ml",
+      "categoria": "Bebidas",
+      "preco": 5.99
+    },
+    {
+      "id": 57,
+      "nome": "Pão Francês",
+      "imagem": "https://www.vivagreenmarket.com.br/uploads/produtos/18465_barcelos_pao-tradicional_pao-frances-da-casa-kg.jpg",
+      "marca": "Panificadora Doce Aroma",
+      "data_validade": "2025-03-18",
+      "ingredientes": "Farinha de trigo, água, fermento, sal",
+      "informacoes_nutricionais": {
+        "calorias": 135,
+        "gorduras": 0.8,
+        "carboidratos": 27,
+        "proteinas": 4.5
+      },
+      "tipo_embalagem": "Unidade",
+      "peso": "50 g",
+      "categoria": "Padaria",
+      "preco": 0.49
+    },
+    {
+      "id": 58,
+      "nome": "Pipoca de Microondas",
+      "imagem": "https://www.varanda.com.br/media/catalog/product/cache/1/image/1200x/9df78eab33525d08d6e5fb8d27136e95/p/i/pipoca-yoki-mic-manteiga-7891095100934.jpg",
+      "marca": "Yoki",
+      "data_validade": "2025-04-30",
+      "ingredientes": "Milho de pipoca, óleo vegetal, sal",
+      "informacoes_nutricionais": {
+        "calorias": 140,
+        "gorduras": 9,
+        "carboidratos": 12,
+        "proteinas": 2
+      },
+      "tipo_embalagem": "Pacote",
+      "peso": "100 g",
+      "categoria": "Snacks",
+      "preco": 3.99
+    },
+    {
+      "id": 59,
+      "nome": "Chocolate ao Leite",
+      "imagem": "https://divf32e1br5es.cloudfront.net/Custom/Content/Products/95/18/95184_chocolate-nestle-classic-150g-ao-leite-p135403_m1_638082712929705808.png",
+      "marca": "Nestlé",
+      "data_validade": "2025-05-20",
+      "ingredientes": "Açúcar, leite em pó, massa de cacau, manteiga de cacau, emulsificantes",
+      "informacoes_nutricionais": {
+        "calorias": 540,
+        "gorduras": 32,
+        "carboidratos": 58,
+        "proteinas": 7
+      },
+      "tipo_embalagem": "Tablete",
+      "peso": "150 g",
+      "categoria": "Doces",
+      "preco": 6.99
+    },
+    {
+      "id": 60,
+      "nome": "Pimenta do Reino em Grãos",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxaW4OOZlxC7hSDaet5Ki_OJ1xgJh7mHLxYkgO665JOAATsQRO1OcWAuIv&s=10",
+      "marca": "Terra",
+      "data_validade": "2028-12-31",
+      "ingredientes": "Pimenta do reino",
+      "informacoes_nutricionais": {
+        "calorias": 320,
+        "gorduras": 10,
+        "carboidratos": 55,
+        "proteinas": 11
+      },
+      "tipo_embalagem": "Pote",
+      "peso": "40 g",
+      "categoria": "Especiarias e Temperos",
+      "preco": 8.49
+    },
+    {
+      "id": 61,
+      "nome": "Whey Protein",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6oy-zoQm1c2y_XvJSBHbmyg4tkDklcyWfNOvklc8T-JPdcaoniHqMhfLt&s=10",
+      "marca": "Optimum Nutrition",
+      "data_validade": "2027-06-30",
+      "ingredientes": "Proteína do soro do leite concentrada, cacau, aromatizantes",
+      "informacoes_nutricionais": {
+        "calorias": 120,
+        "gorduras": 1,
+        "carboidratos": 3,
+        "proteinas": 24
+      },
+      "tipo_embalagem": "Pote",
+      "peso": "900 g",
+      "categoria": "Suplementos Alimentares",
+      "preco": 129.99
+    },
+    {
+      "id": 62,
+      "nome": "Pizza Congelada de Muçarela",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe28uWr8CKyyg-ToABOtXDb_HdWaU6buF6y2cS99kE7Z-KLLNZgjn3mtk&s=10",
+      "marca": "Sadia",
+      "data_validade": "2026-08-20",
+      "ingredientes": "Massa de pizza, muçarela, molho de tomate",
+      "informacoes_nutricionais": {
+        "calorias": 250,
+        "gorduras": 10,
+        "carboidratos": 30,
+        "proteinas": 12
+      },
+      "tipo_embalagem": "Caixa",
+      "peso": "400 g",
+      "categoria": "Congelados",
+      "preco": 12.99
+    },
+    {
+      "id": 63,
+      "nome": "Sal Grosso",
+      "imagem": "https://sdb.com.br/wp-content/uploads/2022/12/SAL-DIAMANTE-BRANCO-GROSSO-1K-Salina-Diamante-Branco.png",
+      "marca": "Diamante",
+      "data_validade": "2030-12-31",
+      "ingredientes": "Sal",
+      "informacoes_nutricionais": {
+        "calorias": 0,
+        "gorduras": 0,
+        "carboidratos": 0,
+        "proteinas": 0
+      },
+      "tipo_embalagem": "Saco",
+      "peso": "1 kg",
+      "categoria": "Condimentos",
+      "preco": 2.99
+    },
+    {
+      "id": 64,
+      "nome": "Pratos Descartáveis",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLwGxMhGA3OF5RbfhlthZBEibneTv5wfQw8sIUepD_dZiWJ51Bm0QrOnA&s=10",
+      "marca": "Bombril",
+      "data_validade": null,
+      "ingredientes": "Papel cartão",
+      "informacoes_nutricionais": null,
+      "tipo_embalagem": "Pacote",
+      "peso": "50 unidades",
+      "categoria": "Descartáveis",
+      "preco": 5.99
+    },
+    {
+      "id": 65,
+      "nome": "Croissant",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK5hAnlKKIalLgiRbraBl6jOKavEm3RNx8vjtVP4ekdM8df5XVDsJmdm_I&s=10",
+      "marca": "Panificadora Delícias",
+      "data_validade": "2025-03-22",
+      "ingredientes": "Farinha de trigo, manteiga, açúcar, fermento",
+      "informacoes_nutricionais": {
+        "calorias": 231,
+        "gorduras": 13,
+        "carboidratos": 24,
+        "proteinas": 4.3
+      },
+      "tipo_embalagem": "Unidade",
+      "peso": "70 g",
+      "categoria": "Padaria",
+      "preco": 2.99
+    },
+    {
+      "id": 66,
+      "nome": "Batata Chips",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjqmYwBAht7JfF8eByfa4rwycaKFKXTX-zxBkNT7mHm02ra_DjLrJKmi1m&s=10",
+      "marca": "Ruffles",
+      "data_validade": "2025-04-30",
+      "ingredientes": "Batata, óleo vegetal, sal",
+      "informacoes_nutricionais": {
+        "calorias": 150,
+        "gorduras": 10,
+        "carboidratos": 14,
+        "proteinas": 2
+      },
+      "tipo_embalagem": "Pacote",
+      "peso": "76 g",
+      "categoria": "Snacks",
+      "preco": 4.49
+    },
+    {
+      "id": 67,
+      "nome": "Brigadeiro com Cocada",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4nxFuhx_1vwWugwa9H1AyrZ0pBFI7eh1njRlGvib_rWe2oZwvEOhUQLuE&s=10",
+      "marca": "Doces da Vovó",
+      "data_validade": "2025-05-20",
+      "ingredientes": "Leite condensado, chocolate em pó, manteiga, coco",
+      "informacoes_nutricionais": {
+        "calorias": 45,
+        "gorduras": 2,
+        "carboidratos": 6,
+        "proteinas": 0.5
+      },
+      "tipo_embalagem": "Unidade",
+      "peso": "20 g",
+      "categoria": "Doces",
+      "preco": 1.29
+    },
+    {
+      "id": 68,
+      "nome": "Curry em Pó",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQJtcuR0CP7cnxpqU7hegi6Eij-_K0H52drJfG5W2bG5e5buoxFz2oUvdH&s=10",
+      "marca": "Terra Exótica",
+      "data_validade": "2027-12-31",
+      "ingredientes": "Cúrcuma, coentro, cominho, pimenta caiena",
+      "informacoes_nutricionais": {
+        "calorias": 296,
+        "gorduras": 14,
+        "carboidratos": 52,
+        "proteinas": 9
+      },
+      "tipo_embalagem": "Pote",
+      "peso": "100 g",
+      "categoria": "Especiarias e Temperos",
+      "preco": 7.99
+    },
+    {
+      "id": 69,
+      "nome": "Multivitamínico",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0deW4CzA2j6gPnwDIMQ6tKNt4Vtg8a8XiHiD2KxMMQw_p8MmLwNpdJD4&s=10",
+      "marca": "Centrum",
+      "data_validade": "2027-06-30",
+      "ingredientes": "Vitaminas e minerais",
+      "informacoes_nutricionais": {
+        "calorias": 0,
+        "gorduras": 0,
+        "carboidratos": 0,
+        "proteinas": 0
+      },
+      "tipo_embalagem": "Frasco",
+      "peso": "150 comprimidos",
+      "categoria": "Suplementos Alimentares",
+      "preco": 39.99
+    },
+    {
+      "id": 70,
+      "nome": "Lasanha Congelada Bolonhesa",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcHyOyDB68hYo03tvoeCqtDCWj2IGMmHbb7ULvyGMEqnEHowtsfiPfqHM&s=10",
+      "marca": "Sadia",
+      "data_validade": "2026-08-20",
+      "ingredientes": "Massa de lasanha, molho bolonhesa, queijo",
+      "informacoes_nutricionais": {
+        "calorias": 350,
+        "gorduras": 15,
+        "carboidratos": 40,
+        "proteinas": 15
+      },
+      "tipo_embalagem": "Caixa",
+      "peso": "600 g",
+      "categoria": "Congelados",
+      "preco": 17.99
+    },
+    {
+      "id": 71,
+      "nome": "Canela em Pó",
+      "imagem": "https://naturaldaterra.com.br/media/catalog/product/cache/45ac340462cb0079031d200b0d766f88/c/a/canela-em-po.png",
+      "marca": "Terra",
+      "data_validade": "2029-12-31",
+      "ingredientes": "Canela",
+      "informacoes_nutricionais": {
+        "calorias": 251,
+        "gorduras": 3,
+        "carboidratos": 81,
+        "proteinas": 4
+      },
+      "tipo_embalagem": "Pote",
+      "peso": "100 g",
+      "categoria": "Condimentos",
+      "preco": 5.49
+    }
+  ]
+}
+
+

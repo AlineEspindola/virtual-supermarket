@@ -1,4 +1,11 @@
 :root {
-  --font-family: "Montserrat", sans-serif;
-  --font-width: 500;
+  --font-Montserrat: "Montserrat", sans-serif;
+  --font-Arial: Arial, Helvetica, sans-serif;
+  --font-width-small: 400;
+  --font-width-medium: 500;
+  --font-width-big: 600;
+  --line-height: 1.5;
+
+  --orange-medium: #FF7809;
+  --orange-dark: #e96e09;
 }

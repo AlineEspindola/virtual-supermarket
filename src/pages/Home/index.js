@@ -31,15 +31,18 @@ function Home() {
     <div>
       <Container>
         <Row>
-          <Col className='bg-light'>
+          <Col className='bg-light col-text'>
             <h1><span style={{color: '#FF7809'}}>Simplifique</span> suas compras, otimize seu tempo</h1>
             <p>Compre seus itens de supermercado de forma rápida e conveniente, sem sair de casa</p>
-            <Button>Produtos</Button>
+            <Button>Produtos <span className='fas fa-arrow-right'></span></Button>
           </Col>
-          <Col>
+          <Col className='col-img'>
             <img src={photoFruits} />
           </Col>
         </Row>
+
+        <h1>Produtos em Destaque</h1>
+        <p>Confira nossas recomendações para uma experiência de compra incrível</p>
       </Container>
     </div>
     // <div className='list-products'>

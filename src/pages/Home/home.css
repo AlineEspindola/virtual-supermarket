@@ -64,7 +64,7 @@ button {
 }
 
 .products-emphasis {
-  margin-top: 100px;
+  margin-top: 120px;
 }
 
 .products-emphasis__text {
@@ -80,7 +80,7 @@ button {
 }
 
 .list-products .row {
-  gap: 50px;
+  gap: 70px;
 }
 
 @media screen and (max-width: 1030px) {

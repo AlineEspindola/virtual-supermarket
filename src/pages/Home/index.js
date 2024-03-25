@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import photoFruits from '../../assets/fruits.jpg'; 
 import Button from 'react-bootstrap/Button';
 import Product from '../../components/Product';
-import Loading from '../../components/Spinner';
+import Loading from '../../components/Loading';
 import './home.css';
 
 function Home() {
@@ -59,7 +59,7 @@ function Home() {
               <Row className="justify-content-center">
                 {products.map((product) => (
                 <Col xs={6} md={3} lg={2} key={product.id}>
-                  <Product image={product.imagem} name={product.nome} price={product.preco} />
+                  <Product id={product.id} image={product.imagem} name={product.nome} price={product.preco} />
                 </Col>
               ))}
               </Row>

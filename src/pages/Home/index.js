@@ -6,7 +6,8 @@ import api from '../../services/api-connection';
 import { Link } from 'react-router-dom';
 import photoFruits from '../../assets/fruits.jpg'; 
 import Button from 'react-bootstrap/Button';
-import Spinner from 'react-bootstrap/Spinner';
+import Product from '../../components/Product';
+import Loading from '../../components/Spinner';
 import './home.css';
 
 function Home() {
@@ -22,7 +23,7 @@ function Home() {
         }
       })
 
-      setProducts(response.data.slice(0, 12));
+      setProducts(response.data.slice(0, 4));
     }
 
     loadProducts();
@@ -32,12 +33,8 @@ function Home() {
 
   if(loading) {
     return(
-      <div className="d-flex justify-content-center align-items-center" style={{ height: '75vh' }}>
-        <Spinner animation="border" role="status" className="spinner">
-          <span className="visually-hidden">Loading...</span>
-        </Spinner>
-      </div>
-    )
+      <Loading/>
+    );
   }
 
   return (
@@ -56,15 +53,13 @@ function Home() {
 
         <div className='products-emphasis'>
           <div className='products-emphasis__text d-flex flex-column align-items-center'>
-            <h1>Produtos em Destaque</h1>
+            <h2><span style={{color: '#FF7809'}}>Produtos</span> em Destaque</h2>
             <p>Confira nossas recomendações para uma experiência de compra incrível</p>
             <div className='list-products'>
               <Row className="justify-content-center">
                 {products.map((product) => (
-                <Col xs={6} md={3} lg={3} key={product.id}>
-                 <img src={product.imagem} alt={product.nome} />
-                 <p>{product.nome}</p>
-                <p>R${product.preco}</p>
+                <Col xs={6} md={3} lg={2} key={product.id}>
+                  <Product image={product.imagem} name={product.nome} price={product.preco} />
                 </Col>
               ))}
               </Row>

@@ -24,16 +24,6 @@
   padding: 0;
 }
 
-h1 {
-  font-size: 30px;
-  font-weight: var(--font-width-big);
-  font-family: var(--font-Arial);
-}
-
-.col-text h1 {
-  font-size: 46px !important;
-}
-
 .col p {
   margin-top: 35px;
   margin-bottom: 65px;
@@ -74,15 +64,23 @@ button {
 }
 
 .products-emphasis {
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 .products-emphasis__text {
-  gap: 10px;
+  gap: 15px;
+}
+
+.list-products {
+  margin-top: 50px;
 }
 
 .list-products img {
   width: 180px;
+}
+
+.list-products .row {
+  gap: 50px;
 }
 
 @media screen and (max-width: 1030px) {

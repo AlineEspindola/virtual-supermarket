@@ -1,0 +1,13 @@
+.icon__content {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.icon__content .icon {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: var(--orange-medium);
+}

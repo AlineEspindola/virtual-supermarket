@@ -1,0 +1,5 @@
+.spinner {
+  color: var(--orange-medium);
+  justify-content: center;
+  align-items: center;
+}

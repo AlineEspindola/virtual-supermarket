@@ -67,17 +67,6 @@ form {
   box-shadow: none;
 }
 
-.fa-shopping-cart, .fa-envelope {
-  display: flex;
-  align-items: center;
-  background-color: #fff;
-  font-size: 20px;
-  color: var(--orange-medium);
-  padding: 0 17px;
-  border-radius: 15px;
-  cursor: pointer;
-}
-
 @media screen and (max-width: 1230px) {
   .nav-link, .btn, .form-control {
     font-size: 13px;

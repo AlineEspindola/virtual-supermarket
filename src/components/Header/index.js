@@ -1,4 +1,5 @@
 import Button from 'react-bootstrap/Button';
+import Icon from '../Icon';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
@@ -9,6 +10,10 @@ import Logo from '../../assets/logo.png';
 import './header.css';
 
 function Header() {
+  // Sempre deve ter icon no final para aplicar o estilo corretamente
+  const iconCart = "fas fa-shopping-cart icon";
+  const iconEnvelope = "fa fa-envelope icon";
+
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
@@ -31,8 +36,8 @@ function Header() {
               aria-label="Search"
             />
             <Button><span className="fas fa-carrot"></span>Buscar</Button>
-            <div className='fas fa-shopping-cart'></div>
-            <div className='fas fa-envelope'></div>
+            <Icon icon={iconCart}/>
+            <Icon icon={iconEnvelope}/>
           </Form>
         </Navbar.Collapse>
       </Container>

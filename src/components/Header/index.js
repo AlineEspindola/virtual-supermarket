@@ -1,4 +1,4 @@
-import ButtonIcon from '../ButtonIcon';
+import ButtonIcon from '../Buttons/ButtonIcon';
 import Icon from '../Icon';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -10,8 +10,8 @@ import Logo from '../../assets/logo.png';
 import './header.css';
 
 function Header() {
-  const iconCart = "fas fa-shopping-cart icon"; // Para componente de icon, deve haver classe icon no final para aplicar o estilo corretamente
-  const iconEnvelope = "fa fa-envelope icon"; // Para componente de icon, deve haver classe icon no final para aplicar o estilo corretamente
+  const iconCart = "fas fa-shopping-cart icon"; // Para componente de icon, deve haver classe icon para aplicar o estilo corretamente
+  const iconEnvelope = "fa fa-envelope icon"; // Para componente de icon, deve haver classe icon para aplicar o estilo corretamente
   const iconCaroot = "fas fa-carrot";
   const textButton = "Buscar";
 

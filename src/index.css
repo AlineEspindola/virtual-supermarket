@@ -25,4 +25,5 @@ h4 {
 p {
   font-size: 16px;
   font-weight: var(--font-width-small);
+  line-height: var(--line-height); 
 }

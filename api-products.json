@@ -3,8 +3,8 @@
     {
       "id": 0,
       "nome": "Cookies",
-      "imagem": "https://lojabauducco.vteximg.com.br/arquivos/ids/158954-1000-1000/7891962054476.jpg?v=638330609085200000",
-      "marca": "Banduco",
+      "imagem": "https://www.big2be.com.br/products/7891962054476.png",
+      "marca": "Bauducco",
       "data_validade": "2025-12-31",
       "ingredientes": "Farinha de trigo, açúcar, óleo vegetal, gotas de chocolate, sal, fermento químico",
       "informacoes_nutricionais": {
@@ -21,7 +21,7 @@
     {
       "id": 1,
       "nome": "Maçã",
-      "imagem": "https://superpao.vtexassets.com/unsafe/fit-in/720x720/center/middle/https%3A%2F%2Fsuperpao.vtexassets.com%2Farquivos%2Fids%2F406820%2FMaca-Fuji-Kg.jpg%3Fv%3D638441197303400000",
+      "imagem": "https://acdn.mitiendanube.com/stores/001/254/392/products/frutas_hortifruti_hortifit_delivery_maca-fuji1-29076e353bc52c5e4c16922890389657-1024-1024.png",
       "marca": "Fuji",
       "data_validade": "2025-06-30",
       "ingredientes": "Maçã",
@@ -39,7 +39,7 @@
     {
       "id": 2,
       "nome": "Peito de Frango",
-      "imagem": "https://www.sondadelivery.com.br/Arquivos/ProdutosSku/158925/7893000482401.png",
+      "imagem": "https://brf.file.force.com/servlet/servlet.ImageServer?id=0154w000024mP7B&oid=00D410000012TJa&lastMod=1697480725000",
       "marca": "Sadia",
       "data_validade": "2025-04-15",
       "ingredientes": "Peito de frango",
@@ -57,7 +57,7 @@
     {
       "id": 3,
       "nome": "Leite",
-      "imagem": "https://www.sondadelivery.com.br/img.aspx/sku/1000043850/530/7896256601848_99_1_1200_72_RGB.jpg",
+      "imagem": "https://giassi.vtexassets.com/arquivos/ids/616953/Leite-UHT-Integral-Tirol-Caixa-1l.png?v=638179386697630000",
       "marca": "Tirol",
       "data_validade": "2025-05-20",
       "ingredientes": "Leite de vaca",

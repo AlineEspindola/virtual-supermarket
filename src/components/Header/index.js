@@ -1,4 +1,4 @@
-import Button from 'react-bootstrap/Button';
+import ButtonIcon from '../ButtonIcon';
 import Icon from '../Icon';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -10,9 +10,10 @@ import Logo from '../../assets/logo.png';
 import './header.css';
 
 function Header() {
-  // Sempre deve ter icon no final para aplicar o estilo corretamente
-  const iconCart = "fas fa-shopping-cart icon";
-  const iconEnvelope = "fa fa-envelope icon";
+  const iconCart = "fas fa-shopping-cart icon"; // Para componente de icon, deve haver classe icon no final para aplicar o estilo corretamente
+  const iconEnvelope = "fa fa-envelope icon"; // Para componente de icon, deve haver classe icon no final para aplicar o estilo corretamente
+  const iconCaroot = "fas fa-carrot";
+  const textButton = "Buscar";
 
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
@@ -35,7 +36,7 @@ function Header() {
               placeholder="Digite o produto..."
               aria-label="Search"
             />
-            <Button><span className="fas fa-carrot"></span>Buscar</Button>
+            <ButtonIcon icon={iconCaroot} text={textButton} />
             <Icon icon={iconCart}/>
             <Icon icon={iconEnvelope}/>
           </Form>

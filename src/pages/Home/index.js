@@ -38,7 +38,7 @@ function Home() {
   }
 
   return (
-    <div>
+    <div className='home__content'>
       <Container>
         <Row>
           <Col className='bg-light col-text'>
@@ -58,10 +58,10 @@ function Home() {
             <div className='list-products'>
               <Row className="justify-content-center">
                 {products.map((product) => (
-                <Col xs={6} md={3} lg={2} key={product.id}>
-                  <Product id={product.id} image={product.imagem} name={product.nome} price={product.preco} />
-                </Col>
-              ))}
+                  <Col xs={6} md={3} lg={2} key={product.id}>
+                    <Product id={product.id} image={product.imagem} name={product.nome} price={product.preco} />
+                  </Col>
+                ))}
               </Row>
             </div>
           </div>

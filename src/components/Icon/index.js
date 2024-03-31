@@ -1,6 +1,6 @@
 import './icon.css';
 
-function Icon({ icon }) {
+function Icon( {icon} ) {
   return(
     <div className="icon__content">
       <div className={icon}></div>

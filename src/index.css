@@ -13,14 +13,12 @@ h2 {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: var(--font-width-big);
 }
 
 h4 {
   font-size: 23px;
-  font-family: var(--font-Arial);
-  color: var(--orange-medium);
   font-weight: var(--font-width-big);
 }
 

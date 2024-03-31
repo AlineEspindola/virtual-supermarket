@@ -24,6 +24,10 @@
   padding: 0;
 }
 
+.home__content .products-emphasis p,.home__content h2 {
+  text-align: center;
+} 
+
 .col p {
   margin-top: 35px;
   margin-bottom: 65px;

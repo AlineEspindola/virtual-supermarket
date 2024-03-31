@@ -16,8 +16,8 @@
   max-width: 170px;
 }
 
-.nav-link, .btn, .form-control {
-  font-weight: var( --font-width-medium);
+.nav-link, .form-control {
+  font-weight: var(--font-width-medium);
   font-size: 16px;
 }
 
@@ -37,38 +37,12 @@ form {
   color: #a8a8a8;
 }
 
-.btn {
-  display: flex;
-  align-items: center;
-  gap: 7px;
-}
-
-.btn, .form-control {
-  padding: 13px 23px;
-  border-radius: 15px;
-}
-
-.btn-primary {
-  background-color: var(--orange-medium);
-  border: var(--orange-medium);
-}
-
-.btn-primary:hover,.btn-primary:active,.btn-primary:focus,.btn-primary:focus-visible {
-  background-color: var(--orange-dark);
-  border: var(--orange-dark);
-}
-
-:not(.btn-check)+.btn:active {
-  background-color: var(--orange-dark);
-  border: var(--orange-dark);
-}
-
 .form-control:focus {
   box-shadow: none;
 }
 
 @media screen and (max-width: 1230px) {
-  .nav-link, .btn, .form-control {
+  .nav-link, .form-control {
     font-size: 13px;
   }
 

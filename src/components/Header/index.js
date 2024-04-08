@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import Input from '../../components/Input';
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/logo.png';
 import './header.css';
@@ -13,7 +13,7 @@ function Header() {
   const iconCart = "fas fa-shopping-cart icon"; // Para componente de icon, deve haver classe icon para aplicar o estilo corretamente
   const iconEnvelope = "fa fa-envelope icon"; // Para componente de icon, deve haver classe icon para aplicar o estilo corretamente
   const iconCaroot = "fas fa-carrot";
-  const textButton = "Buscar";
+  const textButtonIcon = "Buscar";
 
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
@@ -31,12 +31,8 @@ function Header() {
             <Link className="nav-link">Destaque</Link>
           </Nav>
           <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Digite o produto..."
-              aria-label="Search"
-            />
-            <ButtonIcon icon={iconCaroot} text={textButton} />
+            <Input/>
+            <ButtonIcon icon={iconCaroot} text={textButtonIcon} />
             <Icon icon={iconCart}/>
             <Icon icon={iconEnvelope}/>
           </Form>

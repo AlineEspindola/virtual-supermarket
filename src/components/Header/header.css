@@ -25,22 +25,6 @@
   color: #585858;
 }
 
-form {
-  gap: 10px;
-}
-
-.form-control {
-  border: 0;
-}
-
-.form-control::placeholder {
-  color: #a8a8a8;
-}
-
-.form-control:focus {
-  box-shadow: none;
-}
-
 @media screen and (max-width: 1230px) {
   .nav-link, .form-control {
     font-size: 13px;

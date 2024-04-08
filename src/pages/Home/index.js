@@ -8,11 +8,14 @@ import photoFruits from '../../assets/fruits.jpg';
 import Button from 'react-bootstrap/Button';
 import Product from '../../components/Product';
 import Loading from '../../components/Loading';
+import buttonArrow from '../../components/Buttons/ButtonArrow';
 import './home.css';
+import ButtonArrow from '../../components/Buttons/ButtonArrow';
 
 function Home() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState([true]);
+  const textButtonArrow = "Produtos";
 
   useEffect(() => {
 
@@ -44,7 +47,7 @@ function Home() {
           <Col className='bg-light col-text'>
             <h1><span style={{color: '#FF7809'}}>Simplifique</span> suas compras, otimize seu tempo</h1>
             <p>Compre seus itens de supermercado de forma rápida e conveniente, sem sair de casa</p>
-            <Button>Produtos <span className='fas fa-arrow-right'></span></Button>
+            <ButtonArrow text={textButtonArrow} />
           </Col>
           <Col className='col-img'>
             <img src={photoFruits} />

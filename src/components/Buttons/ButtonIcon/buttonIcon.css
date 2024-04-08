@@ -1,4 +1,4 @@
-.btn {
+.buttonicon__content .btn {
   display: flex;
   align-items: center;
   font-weight: var( --font-width-medium);
@@ -6,34 +6,34 @@
   gap: 7px;
 }
 
-.btn, .form-control {
+.buttonicon__content .btn,.buttonicon__content .form-control {
   padding: 20px 23px;
   border-radius: 15px;
 }
 
-.btn-primary {
+.buttonicon__content .btn-primary {
   background-color: var(--orange-medium);
   border: var(--orange-medium);
 }
 
-.btn-primary:hover,.btn-primary:active,.btn-primary:focus,.btn-primary:focus-visible {
+.buttonicon__content .btn-primary:hover,.buttonicon__content .btn-primary:active,.buttonicon__content .btn-primary:focus,.buttonicon__content .btn-primary:focus-visible {
   background-color: var(--orange-dark);
   border: var(--orange-dark);
 }
 
-:not(.btn-check)+.btn:active {
+.buttonicon__content :not(.btn-check)+.btn:active {
   background-color: var(--orange-dark);
   border: var(--orange-dark);
 }
 
 @media screen and (max-width: 1230px) {
-  .btn {
+  .buttonicon__content .btn {
     font-size: 13px;
   }
 }
 
 @media screen and (max-width: 1090px) {
-  .btn {
+  .buttonicon__content .btn {
     font-size: 11px;
   }
 }

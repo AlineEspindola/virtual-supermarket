@@ -1,0 +1,17 @@
+form {
+  gap: 10px;
+}
+
+.form-control {
+  border: 0;
+  padding: 20px 23px;
+  border-radius: 20px;
+}
+
+.form-control::placeholder {
+  color: #a8a8a8;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}

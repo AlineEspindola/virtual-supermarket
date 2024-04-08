@@ -7,7 +7,6 @@
   color: var(--orange-medium);
   justify-content: center;
   align-items: center;
-  margin-top: px;
 }
 
 .row {
@@ -43,14 +42,6 @@
   max-width: 400px;
 }
 
-.col-text button {
-  gap: 50px;
-}
-
-.col-text button {
-  padding: 13px 15px 13px 23px;
-}
-
 .col-text .fa-arrow-right {
   background-color: #ff8623;
   padding: 10px;
@@ -60,10 +51,6 @@
 .col img {
   max-width: 500px;
   border-radius: 15px;
-}
-
-button {
-  max-width: fit-content;
 }
 
 .products-emphasis {

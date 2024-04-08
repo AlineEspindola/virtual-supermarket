@@ -18,8 +18,8 @@ function Header() {
   const textButtonIcon = "Buscar";
 
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
-      <Container fluid>
+    <Navbar expand="lg" className="header bg-body-tertiary">
+      <Container fluid className="header__content">
         <Navbar.Brand href="/"><img src={Logo}></img></Navbar.Brand> 
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">

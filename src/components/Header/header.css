@@ -37,7 +37,7 @@
 }
 
 @media screen and (max-width: 1090px) {
-  .nav-link, .btn, .form-control {
+  .nav-link {
     font-size: 11px;
   }
 
@@ -50,11 +50,5 @@
 @media screen and (max-width: 600px) {
   .navbar {
     margin: 10px 10px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .form-control {
-    display: none;
   }
 }

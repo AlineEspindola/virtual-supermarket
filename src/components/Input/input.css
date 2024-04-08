@@ -15,3 +15,22 @@ form {
 .form-control:focus {
   box-shadow: none;
 }
+
+@media screen and (max-width: 1230px) {
+  .form-control {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .form-control {
+    font-size: 11px;
+    padding: 10px 13px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .form-control {
+    display: none;
+  }
+}

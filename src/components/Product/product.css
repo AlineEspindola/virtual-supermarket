@@ -1,11 +1,15 @@
 .product {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin: 20px;
+  margin: 0px;
 }
 
-.product__text {
+.product .product__image {
+  display: flex;
+  justify-content: center;
+}
+
+.product .product__text {
   display: flex;
   flex-direction: column;
   text-align: center;

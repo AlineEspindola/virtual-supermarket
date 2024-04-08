@@ -66,11 +66,7 @@
 }
 
 .list-products img {
-  width: 180px;
-}
-
-.list-products .row {
-  gap: 70px;
+  width: 100%;
 }
 
 @media screen and (max-width: 1030px) {

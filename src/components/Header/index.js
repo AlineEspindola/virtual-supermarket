@@ -1,11 +1,13 @@
-import ButtonIcon from '../Buttons/ButtonIcon';
-import Icon from '../Icon';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Input from '../../components/Input';
 import { Link } from 'react-router-dom';
+
+import ButtonIcon from '../Buttons/ButtonIcon';
+import Icon from '../Icon';
+import Input from '../../components/Input';
+
 import Logo from '../../assets/logo.png';
 import './header.css';
 

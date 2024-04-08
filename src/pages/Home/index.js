@@ -1,16 +1,16 @@
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import { useEffect, useState } from 'react';
 import api from '../../services/api-connection';
 import { Link } from 'react-router-dom';
-import photoFruits from '../../assets/fruits.jpg'; 
-import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+import ButtonArrow from '../../components/Buttons/ButtonArrow';
 import Product from '../../components/Product';
 import Loading from '../../components/Loading';
-import buttonArrow from '../../components/Buttons/ButtonArrow';
+
+import photoFruits from '../../assets/fruits.jpg'; 
 import './home.css';
-import ButtonArrow from '../../components/Buttons/ButtonArrow';
 
 function Home() {
   const [products, setProducts] = useState([]);

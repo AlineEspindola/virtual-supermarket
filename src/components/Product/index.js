@@ -5,7 +5,7 @@ import Icon from '../Icon';
 import './product.css';
 
 function Product({ id, image, name, price }) {
-  const iconCart = "fas fa-shopping-cart icon"; // Para componente de icon, deve haver classe icon para aplicar o estilo corretamente
+  const iconCart = "fas fa-cart-plus icon"; // Para componente de icon, deve haver classe icon para aplicar o estilo corretamente
 
   return(
     <Link to={`/produto/${id}`} className="product-link">

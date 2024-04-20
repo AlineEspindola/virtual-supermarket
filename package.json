@@ -19,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "//": "O comando para rodar o script abaixo é npm run supermarket (ainda não em funcionamento)",
+    "supermarket": "json-server --watch api-products.json --port 3001 && npm start" 
   },
   "eslintConfig": {
     "extends": [

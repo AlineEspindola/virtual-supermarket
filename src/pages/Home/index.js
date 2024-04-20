@@ -26,7 +26,7 @@ function Home() {
         }
       })
 
-      setProducts(response.data.slice(0, 4));
+      setProducts(response.data.slice(0, 5));
     }
 
     loadProducts();

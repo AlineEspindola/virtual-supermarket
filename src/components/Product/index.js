@@ -18,7 +18,7 @@ function Product({ id, image, name, price }) {
         </div>
         <div className='product__subtexto'>
           <h4>R${price}</h4>
-          <Icon icon={iconCart} />
+          <Icon icon={iconCart}/>
         </div>
       </div>
     </Link>

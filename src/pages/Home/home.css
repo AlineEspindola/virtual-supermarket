@@ -55,12 +55,21 @@
   gap: 15px;
 }
 
-.list-products {
-  margin-top: 35px;
+.products-emphasis .col-md-2{
+  width: 300px;
 }
 
-.list-products img {
-  /* width: 100%; */
+.row {
+  gap: 21px;
+}
+
+.row>* {
+  padding-right: 0; 
+  padding-left: 0;
+}
+
+.list-products {
+  margin-top: 35px;
 }
 
 @media screen and (max-width: 1030px) {

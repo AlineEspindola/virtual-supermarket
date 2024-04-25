@@ -62,7 +62,7 @@ function Home() {
               <Row className="justify-content-center">
                 {products.map((product) => (
                   <Col xs={6} md={2} key={product.id}>
-                    <Product id={product.id} image={product.imagem} name={product.nome} price={product.preco} />
+                    <Product id={product.id} name={product.nome} price={product.preco} />
                   </Col>
                 ))}
               </Row>

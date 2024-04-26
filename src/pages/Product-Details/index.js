@@ -3,37 +3,44 @@ import { useParams } from 'react-router-dom';
 import Loading from '../../components/Loading';
 import api from '../../services/api-connection';
 
-function Product() {
+function ProductDetails() {
   const { id } = useParams();
-  const { product, setProduct } = useState({});
-  const { loading, setLoading } = useState(true);
+  const [product, setProduct] = useState(null); 
+  const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
+  useEffect(() =>  {
     async function loadProduct() {
-      await api.get(`/produto/${id}`)
-      .then((response) => {
-        setProduct(response.data);
-        setLoading(false);
-      })
-      .catch(() => {
-
-      });
+      try {
+        const response = await api.get(`http://localhost:3000/produtos?id=${id}`);
+        if (response.data && response.data.length > 0) {
+          setProduct(response.data[0]); // Por erro de itens duplicados, há esse tratamento
+          setLoading(false); 
+        } else {
+          console.log("Nenhum produto encontrado com o ID:", id);
+          setLoading(false); 
+        }
+      } catch (error) {
+        console.log("Erro ao carregar o produto:", error);
+        setLoading(false); 
+      }
     }
 
     loadProduct();
-  }, []);
+  }, [id]); 
 
-  if(loading) {
-    return (
-      <Loading/>
-    );
+  if (loading) {
+    return <Loading />;
   }
 
-  return(
+  if (!product) {
+    return <div>Nenhum produto encontrado.</div>; 
+  }
+
+  return (
     <div>
-      {product.nome}
+      <h1>Thiago ama {product.nome}</h1>
     </div>
   );
 }
 
-export default Product;
+export default ProductDetails;

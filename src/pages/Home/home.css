@@ -63,7 +63,7 @@
   gap: 21px;
 }
 
-.row>* {
+.list-products .row>* {
   padding-right: 0; 
   padding-left: 0;
 }

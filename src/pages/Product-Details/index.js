@@ -1,12 +1,17 @@
 import { useEffect, useState } from "react";
 import { useParams } from 'react-router-dom';
+
 import Loading from '../../components/Loading';
+import ButtonIcon from '../../components/Buttons/ButtonIcon';
+
 import api from '../../services/api-connection';
 
 function ProductDetails() {
   const { id } = useParams();
   const [product, setProduct] = useState(null); 
   const [loading, setLoading] = useState(true);
+  const iconCart = "fas fa-shopping-cart icon";
+  const textButtonIcon = "Adicionar";
 
   useEffect(() =>  {
     async function loadProduct() {
@@ -37,8 +42,37 @@ function ProductDetails() {
   }
 
   return (
-    <div>
-      <h1>Thiago ama {product.nome}</h1>
+    <div className="product-details">
+      <div className="product-details__content">
+        <div className="product-details__img">
+          <img src={require(`../../assets/products/${product.id}.png`)} alt={product.nome} />
+        </div>
+        <div className="product-details__text">
+          <div className="product-details__name">
+            <h2>{product.nome}</h2>
+          </div>
+          <div className="product-details__category">
+            <p>{product.categoria}</p>
+          </div>
+          <div className="product-details__price">
+            <h4>R${product.preco}</h4>
+            <p>por {product.tipo_embalagem.toLowerCase()}</p>
+          </div>
+          <div className="product-details__button">
+            <ButtonIcon icon={iconCart} text={textButtonIcon} />
+          </div>
+          <div className="product-details__descriptions">
+            <h3>Ingredientes</h3>
+            <p>{product.ingredientes}</p>
+            <h3>Informações Nutricionais</h3>
+            <p>Calorias: {product.informacoes_nutricionais.calorias}, gorduras: {product.informacoes_nutricionais.gorduras}, carboidratos: {product.informacoes_nutricionais.carboidratos}, proteinas: {product.informacoes_nutricionais.proteinas}</p>
+            <h3>Peso</h3>
+            <p>{product.peso}</p>
+            <h3>Data de validade</h3>
+            <p>{product.data_validade}</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

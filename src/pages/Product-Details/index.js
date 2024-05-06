@@ -6,6 +6,8 @@ import ButtonIcon from '../../components/Buttons/ButtonIcon';
 
 import api from '../../services/api-connection';
 
+import './product-details.css';
+
 function ProductDetails() {
   const { id } = useParams();
   const [product, setProduct] = useState(null); 
@@ -42,7 +44,7 @@ function ProductDetails() {
   }
 
   return (
-    <div className="product-details">
+    <div className="product-details bg-light">
       <div className="product-details__content">
         <div className="product-details__img">
           <img src={require(`../../assets/products/${product.id}.png`)} alt={product.nome} />

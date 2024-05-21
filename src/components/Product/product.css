@@ -23,6 +23,10 @@
   margin-bottom: 20px;
 }
 
+.product .product__image img {
+  max-width: 200px;
+}
+
 .product .product__text {
   display: flex;
   flex-direction: column;

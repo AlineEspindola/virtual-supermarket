@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.6.8",
     "bootstrap": "^5.3.3",
-    "react": "^18.2.0",
+    "react": "^18.3.1",
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3",
@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "//": "O comando para rodar o script abaixo é npm run supermarket (ainda não em funcionamento)",
-    "supermarket": "json-server --watch api-products.json --port 3001 && npm start" 
+    "supermarket": "json-server --watch api-products.json --port 3001 && npm start"
   },
   "eslintConfig": {
     "extends": [

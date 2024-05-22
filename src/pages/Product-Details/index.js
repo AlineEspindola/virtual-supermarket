@@ -63,6 +63,22 @@ function ProductDetails() {
     alert("Produto salvo no mercado");
   }
 
+  function hasNutrionalInformation() {
+    if(product.informacoes_nutricionais) {
+      return (
+        <div>
+          <p>Calorias: {product.informacoes_nutricionais.calorias}, gorduras: {product.informacoes_nutricionais.gorduras}, carboidratos: {product.informacoes_nutricionais.carboidratos}, proteinas: {product.informacoes_nutricionais.proteinas}</p>
+        </div>
+      )
+    } else {
+      return (
+        <div>
+          <p>Este produto não é comestível</p>
+        </div>
+      )
+    }
+  }
+
   return (
     <div className="product-details bg-light">
       <div className="product-details__content">
@@ -90,11 +106,11 @@ function ProductDetails() {
             <h3>Ingredientes</h3>
             <p>{product.ingredientes}</p>
             <h3>Informações Nutricionais</h3>
-            <p>Calorias: {product.informacoes_nutricionais.calorias}, gorduras: {product.informacoes_nutricionais.gorduras}, carboidratos: {product.informacoes_nutricionais.carboidratos}, proteinas: {product.informacoes_nutricionais.proteinas}</p>
+            {hasNutrionalInformation()}
             <h3>Peso</h3>
             <p>{product.peso}</p>
             <h3>Data de validade</h3>
-            <p>{product.data_validade}</p>
+            {/* <p>{product.data_validade}</p> */}
           </div>
         </div>
       </div>

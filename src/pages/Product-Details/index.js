@@ -79,6 +79,22 @@ function ProductDetails() {
     }
   }
 
+  function hasExpirationDate() {
+    if(product.data_validade) {
+      return (
+        <div>
+          <p>{product.data_validade}</p>
+        </div>
+      )
+    } else {
+      return (
+        <div>
+          <p>Não há data de validade para este produto</p>
+        </div>
+      )
+    }
+  }
+
   return (
     <div className="product-details bg-light">
       <div className="product-details__content">
@@ -110,7 +126,7 @@ function ProductDetails() {
             <h3>Peso</h3>
             <p>{product.peso}</p>
             <h3>Data de validade</h3>
-            {/* <p>{product.data_validade}</p> */}
+            {hasExpirationDate()}
           </div>
         </div>
       </div>

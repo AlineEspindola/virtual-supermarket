@@ -95,6 +95,40 @@ function ProductDetails() {
     }
   }
 
+
+  function defineSearchYoutube() {
+    let url;
+
+    switch (product.categoria) {
+      case "Produtos de Limpeza":
+        url = `https://youtube.com/results?search_query=Usos para ${product.nome}`;
+        break;
+      case "Produtos de Higiene Pessoal":
+        url = `https://youtube.com/results?search_query=É bom ${product.nome} ${product.marca}?`;
+        break;
+      case "Bebidas":
+        url = `https://youtube.com/results?search_query=Benefícios de tomar ${product.nome}`;
+        break;
+      case "Congelados":
+        url = `https://youtube.com/results?search_query=Como fazer ${product.nome} ${product.marca}`;
+        break;
+      case "Suplementos Alimentares":
+        url = `https://youtube.com/results?search_query=Quem pode tomar ${product.nome}`;
+        break;
+      case "Snacks":
+        url = `https://youtube.com/results?search_query=É bom ${product.nome} ${product.marca}?`;
+        break;
+      case "Descartáveis":
+        url = `https://youtube.com/results?search_query=Usos para ${product.nome}`;
+        break;
+      default:
+        url = `https://youtube.com/results?search_query=Receitas com ${product.nome}`;
+        break;
+    }
+
+    return url;
+  }
+
   return (
     <div className="product-details bg-light">
       <div className="product-details__content">
@@ -114,7 +148,7 @@ function ProductDetails() {
           </div>
           <div className="product-details__button">
             <ButtonIcon onClick={addCart} icon={iconCart} text={textButtonIcon} />
-            <a target="blank" href={`https://youtube.com/results?search_query=Receita com ${product.nome}`} >
+            <a target="blank" href={defineSearchYoutube()} >
               <Icon icon={iconYoutube}/>
             </a>
           </div>

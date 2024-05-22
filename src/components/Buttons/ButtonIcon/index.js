@@ -1,10 +1,10 @@
 import Button from 'react-bootstrap/Button';
 import './buttonIcon.css';
 
-function ButtonIcon( {icon, text} ) {
+function ButtonIcon( { onClick, icon, text} ) {
   return (
     <div className='buttonicon__content'>
-      <Button><span className={icon}></span>{text}</Button>
+      <Button onClick={onClick} ><span className={icon}></span>{text}</Button>
     </div>
   )
 }

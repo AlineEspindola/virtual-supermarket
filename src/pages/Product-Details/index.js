@@ -46,6 +46,23 @@ function ProductDetails() {
     return <div>Nenhum produto encontrado.</div>; 
   }
 
+  function addCart() {
+    const myListCart = localStorage.getItem("@supermarket");
+
+    let productsSaved = JSON.parse(myListCart) || [];
+
+    const hasProduct = productsSaved.some( (productsSaved) => productsSaved.id === product.id )
+
+    if(hasProduct) {
+      alert("Esse produto já está no carrinho");
+      return;
+    }
+
+    productsSaved.push(product);
+    localStorage.setItem("@supermarket", JSON.stringify(productsSaved));
+    alert("Produto salvo no mercado");
+  }
+
   return (
     <div className="product-details bg-light">
       <div className="product-details__content">
@@ -64,7 +81,7 @@ function ProductDetails() {
             <p>por {product.tipo_embalagem.toLowerCase()}</p>
           </div>
           <div className="product-details__button">
-            <ButtonIcon icon={iconCart} text={textButtonIcon} />
+            <ButtonIcon onClick={addCart} icon={iconCart} text={textButtonIcon} />
             <a target="blank" href={`https://youtube.com/results?search_query=Receita com ${product.nome}`} >
               <Icon icon={iconYoutube}/>
             </a>

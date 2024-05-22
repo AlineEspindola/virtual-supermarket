@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 
 import Loading from '../../components/Loading';
 import ButtonIcon from '../../components/Buttons/ButtonIcon';
+import Icon from '../../components/Icon';
 
 import api from '../../services/api-connection';
 
@@ -10,9 +11,11 @@ import './product-details.css';
 
 function ProductDetails() {
   const { id } = useParams();
+  const navigation = useNavigate();
   const [product, setProduct] = useState(null); 
   const [loading, setLoading] = useState(true);
   const iconCart = "fas fa-shopping-cart icon";
+  const iconYoutube = "fab fa-youtube icon";
   const textButtonIcon = "Adicionar";
 
   useEffect(() =>  {
@@ -23,8 +26,8 @@ function ProductDetails() {
           setProduct(response.data[0]); // Por erro de itens duplicados, há esse tratamento
           setLoading(false); 
         } else {
-          console.log("Nenhum produto encontrado com o ID:", id);
-          setLoading(false); 
+          navigation("/", { replace: true } );
+          return;
         }
       } catch (error) {
         console.log("Erro ao carregar o produto:", error);
@@ -33,7 +36,7 @@ function ProductDetails() {
     }
 
     loadProduct();
-  }, [id]); 
+  }, [navigation, id]); 
 
   if (loading) {
     return <Loading />;
@@ -62,6 +65,9 @@ function ProductDetails() {
           </div>
           <div className="product-details__button">
             <ButtonIcon icon={iconCart} text={textButtonIcon} />
+            <a target="blank" href={`https://youtube.com/results?search_query=Receita com ${product.nome}`} >
+              <Icon icon={iconYoutube}/>
+            </a>
           </div>
           <div className="product-details__descriptions">
             <h3>Ingredientes</h3>

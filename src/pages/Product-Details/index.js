@@ -6,6 +6,7 @@ import ButtonIcon from '../../components/Buttons/ButtonIcon';
 import Icon from '../../components/Icon';
 
 import api from '../../services/api-connection';
+import { toast } from "react-toastify";
 
 import './product-details.css';
 
@@ -54,13 +55,13 @@ function ProductDetails() {
     const hasProduct = productsSaved.some( (productsSaved) => productsSaved.id === product.id )
 
     if(hasProduct) {
-      alert("Esse produto já está no carrinho");
+      toast.warn("Este produto já foi adicionado ao carrinho!")
       return;
     }
 
     productsSaved.push(product);
     localStorage.setItem("@supermarket", JSON.stringify(productsSaved));
-    alert("Produto salvo no mercado");
+    toast.success("Produto adicionado ao carrinho!")
   }
 
   function hasNutrionalInformation() {

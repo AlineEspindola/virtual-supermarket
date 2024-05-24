@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './cart.css';
+import { toast } from 'react-toastify';
 
 function Cart() {
   const [products, setProducts] = useState([]);
@@ -17,6 +18,7 @@ function Cart() {
 
     setProducts(filterProducts);
     localStorage.setItem("@supermarket", JSON.stringify(filterProducts));
+    toast.success("Produto removido do carrinho!");
   }
 
   return(

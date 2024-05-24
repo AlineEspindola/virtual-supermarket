@@ -35,7 +35,7 @@ function Header() {
           <Form className="d-flex">
             <Input/>
             <ButtonIcon icon={iconCaroot} text={textButtonIcon} />
-            <Icon icon={iconCart}/>
+            <Link to="/carrinho" ><Icon icon={iconCart}/></Link>
             <Icon icon={iconEnvelope}/>
           </Form>
         </Navbar.Collapse>

@@ -7,6 +7,10 @@
   padding: 15px 25px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .navbar-nav {
   margin-left: 40px;
   gap: 40px;

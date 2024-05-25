@@ -10,6 +10,7 @@
   justify-content: center;
   align-items: center;
   padding: 4.5rem 0;
+  margin: 0 3rem;
   gap: 60px;
 }
 
@@ -76,3 +77,24 @@
 .product-details__content .product-details__descriptions p {
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: 880px) {
+  .product-details .product-details__content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+    gap: 35px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .product-details {
+    margin: 10px 10px;
+  }
+
+  .product-details .product-details__content {
+    padding: 3rem 0;
+  }
+}
+
+

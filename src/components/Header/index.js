@@ -11,14 +11,12 @@ import { Link } from 'react-router-dom';
 import ButtonIcon from '../Buttons/ButtonIcon';
 import Icon from '../Icon';
 import Input from '../../components/Input';
-import Loading from '../../components/Loading';
 
 import Logo from '../../assets/logo.png';
 import './header.css';
 
 function Header() {
   const [products, setProducts] = useState([]);
-  const [loading, setLoading] = useState([true]);
   const [searchValue, setSearchValue] = useState("");
   const navigation = useNavigate();
   const iconCart = "fas fa-shopping-cart icon"; // Para componente de icon, deve haver classe icon para aplicar o estilo corretamente
@@ -38,28 +36,28 @@ function Header() {
     }
 
     loadProducts();
-    setLoading(false);
 
   }, [])
-
-  if(loading) {
-    return(
-      <Loading/>
-    );
-  }
 
   const handleSearch = () => {
     const searchValueLower = searchValue.toLowerCase(); 
     const productSearched = products.find(product => product.nome.toLowerCase().includes(searchValueLower));
 
+    setSearchValue("");
+
     if(productSearched) {
       navigation(`/produto/${productSearched.id}`);
     } else {
-      navigation(`/produtos`);
       toast.warn("Não há este produto no mercado!");
+      navigation(`/produtos`);
     }
+  };
 
-    setSearchValue("");
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      handleSearch();
+    }
   };
 
   return (
@@ -78,7 +76,7 @@ function Header() {
             <Link className="nav-link">Destaque</Link>
           </Nav>
           <Form className="d-flex">
-            <Input value={searchValue} onChange={(e) => setSearchValue(e.target.value)} />
+            <Input value={searchValue} onChange={(e) => setSearchValue(e.target.value)} onKeyDown={handleKeyPress} />
             <ButtonIcon onClick={handleSearch} icon={iconCaroot} text={textButtonIcon} />
             <Link to="/carrinho" ><Icon icon={iconCart}/></Link>
             <Icon icon={iconEnvelope}/>

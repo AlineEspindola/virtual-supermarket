@@ -47,6 +47,10 @@
   border-radius: 15px;
 }
 
+.col .col-img__SlicedFruits {
+  display: none;
+}
+
 .products-emphasis {
   margin-top: 100px;
 }
@@ -74,17 +78,35 @@
 
 @media screen and (max-width: 1030px) {
   .col-text {
-    padding: 60px 50px;
+    padding: 30px 40px;
   }
 
   .col-text p {
     max-width: 100%;
-    margin-top: 25px;
-    margin-bottom: 40px;
+    margin-top: 15px;
+    margin-bottom: 30px;
   }
 
-  .col-img {
+  .col img {
+    max-width: 400px;
+    border-radius: 15px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .home__content h1,.home__content h2 {
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .col .col-img__Fruits {
     display: none;
+  }
+
+  .col .col-img__SlicedFruits {
+    display: flex;
+    max-width: 1000px;
   }
 }
 

@@ -10,6 +10,7 @@ import Product from '../../components/Product';
 import Loading from '../../components/Loading';
 
 import photoFruits from '../../assets/fruits.jpg'; 
+import photoSlicedFruits from '../../assets/sliced_fruits.jpg';
 import './home.css';
 
 function Home() {
@@ -50,7 +51,8 @@ function Home() {
             <ButtonArrow text={textButtonArrow} />
           </Col>
           <Col className='col-img'>
-            <img src={photoFruits} />
+            <img className='col-img__Fruits' src={photoFruits} />
+            <img className='col-img__SlicedFruits' src={photoSlicedFruits} />
           </Col>
         </Row>
 

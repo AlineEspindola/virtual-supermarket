@@ -1,9 +1,9 @@
 import './icon.css';
 
-function Icon( {icon} ) {
+function Icon( {icon, onClick} ) {
   return(
     <div className="icon__content">
-      <div className={icon}></div>
+      <div onClick={onClick} className={icon}></div>
     </div>
   );
 }

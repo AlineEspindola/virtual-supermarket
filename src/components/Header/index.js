@@ -1,3 +1,7 @@
+import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import api from '../../services/api-connection';
+import { toast } from "react-toastify";
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
@@ -7,15 +11,56 @@ import { Link } from 'react-router-dom';
 import ButtonIcon from '../Buttons/ButtonIcon';
 import Icon from '../Icon';
 import Input from '../../components/Input';
+import Loading from '../../components/Loading';
 
 import Logo from '../../assets/logo.png';
 import './header.css';
 
 function Header() {
+  const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState([true]);
+  const [searchValue, setSearchValue] = useState("");
+  const navigation = useNavigate();
   const iconCart = "fas fa-shopping-cart icon"; // Para componente de icon, deve haver classe icon para aplicar o estilo corretamente
   const iconEnvelope = "fa fa-envelope icon"; // Para componente de icon, deve haver classe icon para aplicar o estilo corretamente
   const iconCaroot = "fas fa-carrot";
   const textButtonIcon = "Buscar";
+
+  useEffect(() => {
+    async function loadProducts() {
+      const response = await api.get("http://localhost:3000/produtos", {
+        params:{
+          // Possíveis parâmetros para serem inseridos depois
+        }
+      })
+
+      setProducts(response.data);
+    }
+
+    loadProducts();
+    setLoading(false);
+
+  }, [])
+
+  if(loading) {
+    return(
+      <Loading/>
+    );
+  }
+
+  const handleSearch = () => {
+    const searchValueLower = searchValue.toLowerCase(); 
+    const productSearched = products.find(product => product.nome.toLowerCase().includes(searchValueLower));
+
+    if(productSearched) {
+      navigation(`/produto/${productSearched.id}`);
+    } else {
+      navigation(`/produtos`);
+      toast.warn("Não há este produto no mercado!");
+    }
+
+    setSearchValue("");
+  };
 
   return (
     <Navbar expand="lg" className="header bg-body-tertiary">
@@ -33,8 +78,8 @@ function Header() {
             <Link className="nav-link">Destaque</Link>
           </Nav>
           <Form className="d-flex">
-            <Input/>
-            <ButtonIcon icon={iconCaroot} text={textButtonIcon} />
+            <Input value={searchValue} onChange={(e) => setSearchValue(e.target.value)} />
+            <ButtonIcon onClick={handleSearch} icon={iconCaroot} text={textButtonIcon} />
             <Link to="/carrinho" ><Icon icon={iconCart}/></Link>
             <Icon icon={iconEnvelope}/>
           </Form>

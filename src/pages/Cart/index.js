@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import './cart.css';
 import { toast } from 'react-toastify';
 import { Link } from 'react-router-dom';
+import Loading from '../../components/Loading';
 import imgProductX from '../../assets/product_x.png';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -10,12 +11,15 @@ import ButtonArrow from '../../components/Buttons/ButtonArrow';
 
 function Cart() {
   const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState([true]);
   const textButtonArrow = "Produtos";
 
   useEffect(() => {
     const myCart = localStorage.getItem("@supermarket");
 
     setProducts(JSON.parse(myCart) || []);
+
+    setLoading(false);
   }, [])
 
   function deleteProduct(id) {
@@ -26,6 +30,12 @@ function Cart() {
     setProducts(filterProducts);
     localStorage.setItem("@supermarket", JSON.stringify(filterProducts));
     toast.success("Produto removido do carrinho!");
+  }
+
+  if(loading) {
+    return(
+      <Loading/>
+    );
   }
 
   return(

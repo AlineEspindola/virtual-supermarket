@@ -79,9 +79,15 @@ function ProductDetails() {
 
   function hasExpirationDate() {
     if(product.data_validade) {
+      const data = new Date(product.data_validade) 
+      const day = data.getDate();
+      const month = data.getMonth() + 1; // Os meses começam de zero, então adicionamos 1
+      const year = data.getFullYear();
+      const dateBrazilian = `${day.toString().padStart(2, '0')}/${month.toString().padStart(2, '0')}/${year}`;
+
       return (
         <div>
-          <p>{product.data_validade}</p>
+          <p>{dateBrazilian}</p>
         </div>
       )
     } else {

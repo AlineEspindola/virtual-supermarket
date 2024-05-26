@@ -1,0 +1,7 @@
+.cart .cart__top {
+  display: flex;
+}
+
+.cart .cart__top p {
+  max-width: 400px;
+}

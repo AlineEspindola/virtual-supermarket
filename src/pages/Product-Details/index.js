@@ -5,7 +5,6 @@ import ButtonIcon from '../../components/Buttons/ButtonIcon';
 import Icon from '../../components/Icon';
 import api from '../../services/api-connection';
 import { toast } from "react-toastify";
-
 import './product-details.css';
 
 function ProductDetails() {

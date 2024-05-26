@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './cart.css';
 import { toast } from 'react-toastify';
+import { Link } from 'react-router-dom';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ProductCart from '../../components/ProductCart';
@@ -32,7 +33,7 @@ function Cart() {
         <div className='cart__top'>
           <h2>Meu Carrinho</h2>
           <p>Aqui estão os seus produtos salvos. Continue explorando para adicionar mais produtos!</p>
-          <ButtonArrow text={textButtonArrow} />
+          <Link to="/produtos" ><ButtonArrow text={textButtonArrow} /></Link>
         </div>
 
         {products.length === 0 && <span>Você não possui produtos no carrinho</span>}

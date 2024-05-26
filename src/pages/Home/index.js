@@ -46,7 +46,7 @@ function Home() {
           <Col className='bg-light col-text'>
             <h1><span style={{color: '#FF7809'}}>Simplifique</span> suas compras, otimize seu tempo</h1>
             <p>Compre seus itens de supermercado de forma rápida e conveniente, sem sair de casa</p>
-            <ButtonArrow text={textButtonArrow} />
+            <Link to="/produtos" ><ButtonArrow text={textButtonArrow} /></Link>
           </Col>
           <Col className='col-img'>
             <img className='col-img__Fruits' src={photoFruits} />

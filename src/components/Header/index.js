@@ -73,7 +73,7 @@ function Header() {
           >
             <Link to="/" className="nav-link">Home</Link>
             <Link to="/produtos" className="nav-link">Produtos</Link>
-            <Link className="nav-link">Destaque</Link>
+            <Link target="blank" to="https://github.com/AlineEspindola/virtual-supermarket" className="nav-link">Produção</Link>
           </Nav>
           <Form className="d-flex">
             <Input value={searchValue} onChange={(e) => setSearchValue(e.target.value)} onKeyDown={handleKeyPress} />

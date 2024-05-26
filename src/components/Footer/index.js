@@ -1,6 +1,7 @@
 import Logo from '../../assets/logo.png';
 import personImg from '../../assets/person.png';
 import Nav from 'react-bootstrap/Nav';
+import { Link } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import ButtonArrow from '../../components/Buttons/ButtonArrow';
 import './footer.css';
@@ -13,7 +14,7 @@ function Footer() {
       <div className='footer__content bg-light'>
         <div className='col-1'>
           <Navbar.Brand href="/"><img src={Logo}></img></Navbar.Brand> 
-          <ButtonArrow text={textButtonArrow} />
+          <Link target="blank" to="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=alineabreuespindola@gmail.com" ><ButtonArrow text={textButtonArrow} /></Link>
         </div>
         <div className='col-2'>
           <ul>

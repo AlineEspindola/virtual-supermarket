@@ -9,7 +9,7 @@ function Footer() {
   const textButtonArrow = "Contatar";
 
   return(
-    <footer>
+    <footer id="footer">
       <div className='footer__content bg-light'>
         <div className='col-1'>
           <Navbar.Brand href="/"><img src={Logo}></img></Navbar.Brand> 

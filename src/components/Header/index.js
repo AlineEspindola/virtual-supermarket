@@ -79,7 +79,7 @@ function Header() {
             <Input value={searchValue} onChange={(e) => setSearchValue(e.target.value)} onKeyDown={handleKeyPress} />
             <ButtonIcon onClick={handleSearch} icon={iconCaroot} text={textButtonIcon} />
             <Link to="/carrinho" ><Icon icon={iconCart}/></Link>
-            <Icon icon={iconEnvelope}/>
+            <a href='#footer'><Icon icon={iconEnvelope}/></a>
           </Form>
         </Navbar.Collapse>
       </Container>

@@ -1,10 +1,8 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from 'react-router-dom';
-
 import Loading from '../../components/Loading';
 import ButtonIcon from '../../components/Buttons/ButtonIcon';
 import Icon from '../../components/Icon';
-
 import api from '../../services/api-connection';
 import { toast } from "react-toastify";
 

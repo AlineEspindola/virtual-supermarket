@@ -4,11 +4,9 @@ import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
 import ButtonArrow from '../../components/Buttons/ButtonArrow';
 import Product from '../../components/Product';
 import Loading from '../../components/Loading';
-
 import photoFruits from '../../assets/fruits.jpg'; 
 import photoSlicedFruits from '../../assets/sliced_fruits.jpg';
 import './home.css';

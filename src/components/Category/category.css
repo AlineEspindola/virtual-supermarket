@@ -1,0 +1,23 @@
+/* category.css */
+.category-button {
+  border: 1px solid var(--orange-medium);
+  border-radius: 15px;
+  padding: 10px 15px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--orange-medium);
+  cursor: pointer;
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s; /* Suaviza a transição das cores */
+}
+
+.category-button.active {
+  background-color: var(--orange-medium);
+  color: white;
+}
+
+.category-button:hover {
+  background-color: var(--orange-medium);
+  color: white;
+}

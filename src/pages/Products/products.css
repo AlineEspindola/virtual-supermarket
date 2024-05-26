@@ -1,0 +1,23 @@
+.products .products__content {
+  margin: 50px 40px;
+}
+
+.products .products__categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.products .products__cards {
+  margin-top: 50px;
+}
+
+.products__cards .col-md-2{
+  width: 300px;
+}
+
+.products__cards .row{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 237px);
+  margin: 0;
+}

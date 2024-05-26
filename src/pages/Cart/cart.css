@@ -13,6 +13,15 @@
   max-width: 400px;
 }
 
+.cart .cart__img {
+  display: flex;
+  justify-content: center;
+}
+
+.cart img {
+  max-width: 300px;
+}
+
 .cart .fa-arrow-right {
   background-color: #ff8623;
   padding: 10px;

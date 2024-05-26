@@ -4,6 +4,7 @@ import Products from './pages/Products';
 import ProductDetails from './pages/Product-Details';
 import Cart from './pages/Cart';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import Error from './pages/Error';
 
 function RoutesApp() {
@@ -17,6 +18,7 @@ function RoutesApp() {
         <Route path="/carrinho" element={ <Cart/> } />
         <Route path="*" element={ <Error/> } />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }

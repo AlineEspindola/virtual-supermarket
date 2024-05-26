@@ -65,7 +65,7 @@ function Home() {
                 {products.map((product) => (
                   <Col xs={6} md={2} key={product.id}>
                     <Product id={product.id} name={product.nome} price={product.preco} />
-                  </Col>
+                  </Col> 
                 ))}
               </Row>
             </div>

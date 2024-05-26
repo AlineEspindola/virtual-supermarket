@@ -49,8 +49,8 @@ function Home() {
             <Link to="/produtos" ><ButtonArrow text={textButtonArrow} /></Link>
           </Col>
           <Col className='col-img'>
-            <img className='col-img__Fruits' src={photoFruits} />
-            <img className='col-img__SlicedFruits' src={photoSlicedFruits} />
+            <img className='col-img__Fruits' src={photoFruits} alt="Imagem de uma sacola com frutas" />
+            <img className='col-img__SlicedFruits' src={photoSlicedFruits} alt="Imagem de uma sacola com frutas" />
           </Col>
         </Row>
 

@@ -13,7 +13,7 @@ function Footer() {
     <footer id="footer">
       <div className='footer__content bg-light'>
         <div className='col-1'>
-          <Navbar.Brand href="/"><img src={Logo}></img></Navbar.Brand> 
+          <Navbar.Brand href="/"><img src={Logo} alt="Imagem da logo"></img></Navbar.Brand> 
           <Link target="blank" to="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=alineabreuespindola@gmail.com" ><ButtonArrow text={textButtonArrow} /></Link>
         </div>
         <div className='col-2'>
@@ -39,7 +39,7 @@ function Footer() {
           </ul>
         </div>
         <div className='col-5'> 
-          <img src={personImg} />
+          <img src={personImg} alt="Imagem de um homem segurando uma sacola de produtos" />
         </div>
       </div>
     </footer>

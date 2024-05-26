@@ -63,7 +63,7 @@ function Header() {
   return (
     <Navbar expand="lg" className="header bg-body-tertiary">
       <Container fluid className="header__content">
-        <Navbar.Brand href="/"><img src={Logo}></img></Navbar.Brand> 
+        <Navbar.Brand href="/"><img src={Logo} alt="Imagem da logo"></img></Navbar.Brand> 
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav

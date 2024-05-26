@@ -30,14 +30,14 @@ function Cart() {
     <div className='cart'>
       <div className='cart__content'>
         <div className='cart__top'>
-          <h1>Carrinho</h1>
+          <h2>Meu Carrinho</h2>
           <p>Aqui estão os seus produtos salvos. Continue explorando para adicionar mais produtos!</p>
           <ButtonArrow text={textButtonArrow} />
         </div>
 
         {products.length === 0 && <span>Você não possui produtos no carrinho</span>}
 
-        <Row className="justify-content-center">
+        <Row className='justify-content-center'>
           {products.map((product) => (
             <Col xs={6} md={2} key={product.id}>
               <ProductCart id={product.id} name={product.nome} price={product.preco} deleteProduct={deleteProduct} />

@@ -15,16 +15,20 @@
   transform: scale(1.1);
 }
 
-.product-cart .product__image {
+.product-cart .product-cart__image {
   display: flex;
   justify-content: center;
+  align-items: center;
   max-width: 250px;
   max-height: 250px;
   margin-bottom: 20px;
 }
 
 .product-cart .product-cart__image img {
-  max-width: 200px;
+  display: flex;
+  max-width: 166px;
+  justify-content: center;
+  align-items: center;
 }
 
 .product-cart .product-cart__text {

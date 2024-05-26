@@ -14,10 +14,15 @@
 
 .products__cards .col-md-2{
   width: 300px;
+  padding: 0;
 }
 
 .products__cards .row{
   display: grid;
   grid-template-columns: repeat(auto-fit, 237px);
   margin: 0;
+}
+
+.product-link .product__image img{
+  max-width: 166px;
 }

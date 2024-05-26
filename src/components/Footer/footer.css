@@ -84,13 +84,13 @@ footer .fa-arrow-right {
 
 @media screen and (max-width: 600px) {
   footer .footer__content {
-    margin: 150px 20px 10px 20px;
+    margin: 150px 10px 10px 10px;
   }
 }
 
 @media screen and (max-width: 450px) {
   footer .footer__content {
-    margin: 150px 20px 10px 20px;
+    margin: 150px 10px 10px 10px;
   }
 
   .footer__content .col-1 img {

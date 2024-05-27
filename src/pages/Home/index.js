@@ -9,6 +9,7 @@ import Product from '../../components/Product';
 import Loading from '../../components/Loading';
 import photoFruits from '../../assets/fruits.jpg'; 
 import photoSlicedFruits from '../../assets/sliced_fruits.jpg';
+import imgPersonOranges from '../../assets/person_oranges.png'
 import './home.css';
 
 function Home() {
@@ -66,6 +67,19 @@ function Home() {
                   </Col> 
                 ))}
               </Row>
+            </div>
+          </div>
+        </div>
+
+        <div className='why-choice'>
+          <div className='why-choice__content bg-light'>
+            <div className='why-choice__text'>
+              <h2>Por que escolher nosso <span style={{color: '#FF7809'}}>site de compras de supermercado?</span></h2>
+              <p>Nossa plataforma foi projetada para proporcionar uma experiência de compra online tão simples quanto caminhar pelos corredores de um supermercado físico. Com uma interface intuitiva e amigável, você pode navegar facilmente pelas diferentes categorias de produtos e encontrar exatamente o que precisa em questão de minutos </p>
+              <Link to="/carrinho" ><ButtonArrow text="Comprar agora" /></Link>
+            </div>
+            <div className='why-choice__img'>
+              <img src={imgPersonOranges} alt="Imagen de um homem com produtos" />
             </div>
           </div>
         </div>

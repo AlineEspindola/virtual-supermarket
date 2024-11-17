@@ -7,7 +7,7 @@
 <hr>
 
 ## Como iniciar o projeto? 🏁
-#### Pré-requesitos: Tenha React e Json-Server instalados
+#### Pré-requisitos: Tenha React e Json-Server instalados
 
 - Clone o repositório
 - Inicie o json-server, com o seguinte comando:
